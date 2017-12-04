@@ -1,46 +1,61 @@
-what i have in process or completed right now
-Что бы вы могли увидеть уже сейчас, если бы я выложил все на хостинг
-(сейчас это отдельные проекты, потому так легче разделить функционал на части, 
-проверить как работает данный функционал отдельно а потом соединить все в
- один хорошо работающий проект)
+Completed or in-progress parts.
+Let's assume that i made it online available.
 
-1) Free Menu (Recipes) App - Angular + Ionic Framework - список рецептов и 
-описание каждого рецепта
-But soon i'll redo app from scratch. 
+Right now it's a different projects. Later i plan to convert them into modules that will became a big & complex platform
 
-2) Stripe subscriptions dashboard - т.к. у нас были проблемы с подписками,
- самый удобный recurring gateway -> Stripe
 
-Я хочу в итоге не делать руками recurring - я хочу продавать интеграцию с 
-Recurly - тоесть большие и удобные методы подписки - но это работает когда
- большая подписная база. тоесть для вас - это может быть актуально. 
- стоит своих $200 в месяц
+1) Free Menu (Recipes) App - Angular + Ionic Framework - 
+# Release #1 compled: recipes list, recipe details.
+Note: soon i'll redo app from scratch. 
 
-Change plan
-Subscribe / unsubscribe
-user profile + billing settings
+2) Stripe subscriptions dashboard
+In my previous projects we have problems with recirring events, so i pick Stripe at this time in order to simplicity.
+# Release #1 completed
+Basic functionality: 
+- Sign up process
+- Pick a plan + Billing
+- View profile + Billing settings
+- Switch subscription plan
+- Subscribe / unsubscribe
+Note: User sensitive data not stored on our server for security reasons
+
+Note: in the end i want to enable Recurly integration - because it better but paid. Will work only for a big clients
+
 
 3) API for meal planning Apps(simple version) - so any who have credentials can use our data or store date in easy way no matter of programming language
+# Release #0 compled. Release #1 started. Partially completed by option#9 
+- Authentification
+- First database scheme
+- Save data into db. Data manipulations.
 
-4) Simple Finance Tracking tool(exspence tracking) - how much family spend per week? How meet financial goals
+4) Simple Finance Tracking tool(exspence tracking) - how much family spend per week? How meet financial goals, etc. 
+# Research stage completed. 
 
-5) Meal Planning App(2nd generation or option #1)
+5) Meal Planning App(2nd generation or option #1) build with React Native help
 
-6) Simple(more simple with less options to configure) than your admin dashboard. Main feature -> add recipe to db. Drag them to Weekly Menu. Publish, send weekly menu notifications.
+6) Simple(without options to configure) admin dashboard.
+Main feature -> add recipe to db. Drag them to Weekly Menu. Publish, send weekly menu notifications.
+# Release 1 can be completed after binding with option#3 logic
+Note: later i plan to switch to Forest Admin startup. 
 
-7) API Documentation
+7) API Documentation (Messy, not completed, can be extended)
+# Release #1 80% completed by option#3
 
-8) Set of tasks, try to manage myself. Codein git repo, trying to simplify things. And made it working and looking clear
+8) For each of this projects i created step-by-step plan. Create releases plan with tasks
+Trying to simplify things, manage myself, made this approach working
+# Stage 2: For 2 projects PM work is done for at least 3 month
 
-9) GL only web app(got other open sourced codes and mimic it at my implementation)
-Simple add / list / edit / Delete categories and items
-All code and structure are from my heador my searching in google skills
+9) Grocery list(Shopping list) only web app(got other open sourced codes and mimic it at my implementation)
+- Simple add / list / edit / Delete categories and items
+- All code and structure are from my head or by my googling skills.
+- Have simple API, can be combined with mobile app
 
 10) Advanced search functionality
+# Research finished. Release #0 will be completed after binding with database from option#3
 
+11) Unit convertions (research stage)
 
-важной информацией является то, что я не хочу ограничиваться вашим функционалом.
-Как минимум он устарел, как максимум - это слишком скучно.
-Без понимания того что я не применю и не сделаю ничего нового для вашей индустрии - я бы не брался за этот проект и точно не предлагал бы вам долю.
-Ведь в других проектах, которые я рассматриваю менее серьезно
+12) data parsing(deep research page with previous completed functionality knowledge)
 
+I didn't plan to limit myself with functionality that was build at previous projects.
+Things going forward, and some features are outdated. 
