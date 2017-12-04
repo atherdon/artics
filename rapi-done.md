@@ -1,3 +1,6 @@
+### Will it be a stealth startup if i'll explain what i plan to do?
+I think no :)
+
 Completed or in-progress parts.
 Let's assume that I made it online available.
 
