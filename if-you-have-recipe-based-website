@@ -1,0 +1,48 @@
+Например у вас есть сайт рецептов и вы бы хотели подключить app.
+вроде бы всю логику работы вы уже знаете, но чтото вам мешает.юююю
+
+надеюсь после прочтения данной статьи вы поймете что добавить апп к вашему сайту это не такая уж и большая проблема.
+конечно случаи бывают разные. моя задача показать что это можно просто сделать с помощью того проекта который я разрабатываю
+
+для этого можно использовать наш API server и нашу же простую app, написанную на Angular(ionic based).
+код доступен на гитхабе, правда осталось сделать конвертацию кода с помощью cordova.
+но на симулятре все работало, поэтому я и забил это делать.
+След версия приложения планируется делаться на React Native.
+отлично то что у реакт нейтива появился create-react-app - этот starter kit облегчает жизнь таким начинающим разработчикам какк я
+
+1) вы можете как соединить контент вашего сайта, так и сделать отдельный instance only for app.
+
+2) вы можете напрямую делать коннект к базе и брать данные из нее или использовать API endpoints
+
+3) authorization + registration - covered by our API. Or you can use sign up flow from your previous setup.
+in next releases we'll advance security options of API and receiving data.
+
+главное будет настроить bridge between your db, API and app.
+
+с помощью апи вы легко сможете сейчас запустить функционал Free Menu(5-6 recipes per week, with additional data)
+This was finished in release #0(API) + release #1(APP)
+
+При этом, если вы нехотите заморачиваться - вы всегда в первом шаге можете настроить работу app без  подключения к API и вашей базе.
+Можно все упростить(ведь это цель этой статьи).
+Данные могут выводится из статического файла. который лежит на сервере и доступен по открытому URL.
+
+В App release#1 version(Free Menu) существуют такие
+app screens:
+Login / sign-up
+About app tour
+View Menu(recipes list)
+View Recipe data
+view settings
+profile
+recipe data short/extended (limited for different purposes)
+Simple grocery list form with to-do checkboxes list.
+
+Note: in this release we have a screens with ingredients list - right now auto-generation is not working.
+So in order to use this functionality you must have another one file with Grocery List items.
+
+later it'll be generated on the fly.
+
+В следующем релизе можно включить логин по данным из основной базы и вывод меню на определенную(current weekly menu)
+
+
+В следующем релизе можно будет организовать платную регистрацию, subscription management + search with filters.
