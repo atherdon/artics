@@ -1,0 +1,38 @@
+### Где может использоваться данная(схожая по строению) структура базы данных
+
+* recipe based websites(allrecipes.com)
+* food loggers(ex. + shopping lists like GroceriStar)
+* dietary management / Weight loss
+* restaurants data, cafe, etc (menus + ingredients management)
+* order delivery
+fitness projects (fitbit tracks your water and know how much calories was burnt)
+
+Online shops(fresh markets, meat, farmers food)
+Alcogol/Cockails/Beers bewerage allrecipes
+Family budget planners
+
+### Базовая проблема при создании сайтов(не технические)
+*data enter
+*photo/video content creation and checking their quality
+*chat with users, resolving emergencies
+*making universal meals with ingredients without any restrictions(alergic, seasoned food)
+*working discipline, discipline at other topics(marketing)
+*development team management
+*Business management(payment bills, refunds, other business rutine)
+*ведение соцсетей: пост данных, создание профилей, создание статей и другого развлекательного контента
+*Поиск (в техническую часть)
+*Out of money and cannot keep going forward
+
+########### Базовые проблемы при разработке - технические
+
+Структура базы данных
+настройка paymernt systems
+ автоматические нотификации пользователям
+ Order systems, working with funds and with refunding - automatically
+ HTTPs must be configured in order to taking save payments
+ Lifecycle emails
+ Расширяемость, добавляемость функийии
+ Support, Faq section, ittercations with humans
+ систематизация контета и взаимодействия внутри комманды
+
+ Идея: просмотреть документы от вольберга
