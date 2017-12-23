@@ -23,18 +23,18 @@ All pages and elements must be explained on paper before start. This will save b
 * typography
 * Main color scheme for website
 
-Inner pages design: $300(each page). This is minimal amount. 
+Inner pages design: $300(each page). This is minimal amount.
 This cost will work only, when designer exactly know what he need to do.
 
 I propose to use this formula for calculation how much money can cost custom design.
 This formula give us a maximum value - most bad option, when all is going wrong.
 If design process will be managed well. design cost can(read must) be reduced.
 
-Design cost: $1200 + $300*n*1.4*1.2 
+Design cost: $1200 + $300*n*1.4*1.2
 
 n - number of inner pages(some of pages can have duplicated functionality, which can save some time)
 
-1.4 - additional 40% for unexpected situations 
+1.4 - additional 40% for unexpected situations
 
 1.2 - additional 20% for management costs(someone who will manage and interact with designer with PM skills)
 
@@ -42,17 +42,17 @@ Note: Design must be created in 3 different resolutions. This will save time to 
 So, each page must have 3 psd files: desktop-version, tablet-version, mobile-version.
 
 
-Designer must convince owner, that website design have latest trends in internet. With good design, we can solve problems of heavy pages. 
+Designer must convince owner, that website design have latest trends in internet. With good design, we can solve problems of heavy pages.
 
-Ex: Imagine PayPal main payment form. It have 12-18 fields. it's a big pain for users to fill it. Then check how payment forms looks at mobile platforms - design can deal with heavy functionality. This can save time for users. 
+Ex: Imagine PayPal main payment form. It have 12-18 fields. it's a big pain for users to fill it. Then check how payment forms looks at mobile platforms - design can deal with heavy functionality. This can save time for users.
 
 
-5) Design for application. Below I put some links, that can help to launch "good looking" application. 
+5) Design for application. Below I put some links, that can help to launch "good looking" application.
 Why application? It can add more value to clients, suppliers, investors. it will also increase strategies to interaction with users. Before design for application will started - we need to have list with all pages and elements on each page.
-So good idea to build alpha version of application with "default simple design". This application will have all functionality, but without sharp design. Later, when design for application will be done - we'll need to add styles in code and user will be able to use it. 
+So good idea to build alpha version of application with "default simple design". This application will have all functionality, but without sharp design. Later, when design for application will be done - we'll need to add styles in code and user will be able to use it.
 
 Please check UI kits, that I put below, they can save about $800 for application design. Using this UI kits frontend developer need to convert them to HTML/CSS3 and move this styles to application code with "default simple design".
-Other great point - with UI kit - you can save a lot of time. 
+Other great point - with UI kit - you can save a lot of time.
 
 Most detailed UI kits was build by Invisionapp team:
 https://www.invisionapp.com/tethr
@@ -79,62 +79,12 @@ PM will feel gaps between owner, developers, specification. Without PM you'll fa
 
 =====================
 
-Mistakes, that can be avoided.
-
-* Run out of money, when revenue stream are not configured
-
-* Unfocus. Do few things in same time and spend resources not wisely or have conflicts between this things. Each action must complement and develop whole business. Not take time, money, other resources
-
-* Postpone launches for a few month
-
-* Not launch update, because it's "not perfect"
-
-* Loose connection between (live branch) and (future update branch)
-
-* Have a huge plans 
-
-* Don't want to change main plan when situation was changed.
-
-Note:
-It's important to move updates on livesite, test functionality on your users and then fix issues in fast mode.
-In other way - things will really slow down. You must track developers and push them by deadlines. This will help to produce working solution, that is important for right now.
-
-
-Ex: If you need to create a gun for killing rabbit, you should not to create a plasma gun for killing big mammals.
-==================
-
-Step-by-step plan with stages
-
-
-
-1) Intro stage. Specification approved by tech lead. With small amount of money - this is backend developer
-
-2) Design stage
-
-3) HTML markup creation stage (Cannot start without designed pages). Can have some issues with elements from design and throw come back to design change for some fixes.
-
-4) Project architecture(Database, API, Forms, Validations, Authentication, Security)
-
-5) All backend working without design - this is part of Project architecture stage. I move it to separate stage, because there always troubles to go from things written at specification to "all pieces working well together" 
-
-6) Frontend pages implemented, backend changes done. During this stage you need to be ready make changes at backend part.
-When something work good without design - it will broke, or have some mistakes with a new frontend changes. Usually this is not take a lot of time, but you need to be aware that developer can 'stuck' working on some custom functionality. This is cannot be ignored, so owner must track this stage carefully and discuss with developers different options.
-
-7) Tests and fixes stage. Usually, if you want to get stable product - you need to move functionality to live few times.
-You must test, how users will react and use your project. And it's important to test cases on "live users". Before this stage all data was entered by developers and this is how project will work in "ideal world". "Live users" will interact with project as they wish - you can catch a lot of issues after going live. And this is good. You must fill a list with errors, that was caused by users - move this list to developers - fix errors - move updates to live site. This cycle can be repeated while you project will work fine for your users.
-
-
-Notes:
-It always can be trouble on 6,7 items
-
-Developer can 'stuck' with vendor API integrations, payment gateways, using some custom modules. This breakdowns always will be and you must be prepared to them. Usually they have place at latest stages or if you don't have a proper management and testing.
-
 ======================
 
 Technologies
 
-When I describing technology stack, I assume that project development will be outsourced to one for companies in Ukraine. 
-Talent market, prices, all this information based on information from Ukraine market. In other situations - you can chose other technology stack. 
+When I describing technology stack, I assume that project development will be outsourced to one for companies in Ukraine.
+Talent market, prices, all this information based on information from Ukraine market. In other situations - you can chose other technology stack.
 
 
 If you'll find a good tech lead - he can advice you about different technologies.
@@ -169,7 +119,7 @@ In this situation I'll propose to work only with       wholesale suppliers. This
 
 
 Note:
-A lot of big companies have "startup programs", like Microsoft. They can help to save first money on development related costs: advertising, hosting, etc. 
+A lot of big companies have "startup programs", like Microsoft. They can help to save first money on development related costs: advertising, hosting, etc.
 
 Hosting environment.
 You must use hosting with developer friendly "stuff". You need to buy hosting with ability to setup server from scratch. With full access to work on it. Setup emails, databases, backups, etc.
@@ -193,7 +143,7 @@ You must to explain, how client will work with BBC.
 
 Maybe you need to check how this was covered at all.biz, amazon, etsy. This can give you a lot of insights.
 
-It can be an opportunity if you'll create and manage a simple job board/craigslist - this can generate additional traffic and attention to BBC. 
+It can be an opportunity if you'll create and manage a simple job board/craigslist - this can generate additional traffic and attention to BBC.
 
 Any option for increasing traffic can be reasonable. Especially, if this is easy to do and cheap. If this system are self sustainable and don't eat a lot of time for support.
 
@@ -209,14 +159,14 @@ How you can get this good story.
 
 In any option - showcases - it's important part            for big companies.
 For small companies any sales growth - it's good, because they don't have a lot of sales funnels, usually.
-Cost for get attention of small companies is lower. They have low pricing, this is important too. 
+Cost for get attention of small companies is lower. They have low pricing, this is important too.
 Small companies don't spend a lot of time for thinking. Big company must run a lot of meetings, before they make a decision.
 
 
 
 ================
 
-Create a simple procedure for adding           "paying links" to BBC for big companies. 
+Create a simple procedure for adding           "paying links" to BBC for big companies.
 Imagine data, that must be imported and related to iPhone:
 images, video, tech specs, product attributes( color, data storage, etc.) additional accessories( cases, earPods, etc. )
 
@@ -301,7 +251,7 @@ Page with product description and link to main business website? With image? Som
 Where he will be able to review only his products?
 
 How you'll contact him, when all will be done(import to BBC website)?
-Will he be able to make changes after import, in order that he don't like something? 
+Will he be able to make changes after import, in order that he don't like something?
 
 How you'll make him understand that all is working fine?
 
@@ -323,7 +273,7 @@ I share an archive in trello to you. Buzz me and I'll explain. This template wil
 I don't use it, but it's good. I can share samples with data - to give idea how it must looks
 Submit to different startup networks:
 - f6s update, add more information to profile
-index.io update, add more information 
+index.io update, add more information
 
 https://gust.com + updated pitch deck add to this website
 
@@ -362,7 +312,7 @@ Extended version of database must have complex logic for categorization.
 I propose to have 3 stages for categories:
 easy) just copy content from first BBC website.
 difficult) complex structure, that cover most types of products
-not easy)  leave only categories, that makes profit. other categories can be just trashed, or moved to "other/uncategorized" section 
+not easy)  leave only categories, that makes profit. other categories can be just trashed, or moved to "other/uncategorized" section
 
 
 ///////////////////////////////
@@ -380,7 +330,7 @@ Admin validation for companies and "paying links"
 
 "Open BBC in new countries" - fast way
 
-Big, fast, easy and accurate product import. Ex: Large company have 500 products on different categories with different content and different product attributes: outfit, shoes, accessories, perfumes. Like Louis Vuitton houlding. 
+Big, fast, easy and accurate product import. Ex: Large company have 500 products on different categories with different content and different product attributes: outfit, shoes, accessories, perfumes. Like Louis Vuitton houlding.
 
 Business directory of companies(I think you'll need it). It can be created using data that will submit business owners to you. This will also add some functionality to your project and can increase profits.
 
@@ -406,12 +356,12 @@ Note: for managing contacts - you need to use CRM start with hubspot Sales - fre
 - Working with SEO, meta tags, titles, shares, etc.
 
 - Marketing stuff.
- 
-- Blog content management. Will also help in SEO. 
+
+- Blog content management. Will also help in SEO.
 
  - Each page / Paying links must have extended version of meta attributes, schema.rog attributes
 
-- It will be foreseeing move to create an API at backend/architecture development stage. 
+- It will be foreseeing move to create an API at backend/architecture development stage.
 - Another feature can be chatbot development. it can be integrated on different messengers and will help users to browse products on BBC from Fb Messenger app
 
 
@@ -419,7 +369,7 @@ Note: for managing contacts - you need to use CRM start with hubspot Sales - fre
 
 - Products Delivery. Did you plan to organize product delivery? I think you need delivery, if you'll be well funded. In other case you can risk your reputation if business owner(paying links buyer) fail something. With product delivery you'll need to include shipping calculations.
 
-- support 
+- support
 
 - Money-Back situations. So, if user buy something, but later want to return money - you'll be able send back his money account.
 
@@ -470,4 +420,3 @@ This tool can increase revenue.
 3) HGroove - free version of zendesk. have less functionality.
 
 -----------------------------
-
