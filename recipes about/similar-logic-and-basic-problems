@@ -1,4 +1,10 @@
-### Где может использоваться данная(схожая по строению) структура базы данных
+### Published.
+Идея: просмотреть документы от вольберга
+
+projects AKA Food Tech: database structure, basic troubles to be ready for
+
+### Where similar database structure can be used Где может использоваться данная(схожая по строению) структура базы данных
+At this post i tell a bit about my project
 
 * recipe based websites(allrecipes.com)
 * food loggers(ex. + shopping lists like GroceriStar)
@@ -11,28 +17,33 @@ Online shops(fresh markets, meat, farmers food)
 Alcogol/Cockails/Beers bewerage allrecipes
 Family budget planners
 
-### Базовая проблема при создании сайтов(не технические)
-*data enter
+### Basic troubles, that you'll face when you create recipe website (non-technical)
+
+*data entering
 *photo/video content creation and checking their quality
 *chat with users, resolving emergencies
 *making universal meals with ingredients without any restrictions(alergic, seasoned food)
-*working discipline, discipline at other topics(marketing)
-*development team management
+*working discipline, discipline at other topics(marketing for example)
+*management of development team
 *Business management(payment bills, refunds, other business rutine)
-*ведение соцсетей: пост данных, создание профилей, создание статей и другого развлекательного контента
-*Поиск (в техническую часть)
+*social media stuff: posting, profile creation, articles creation, art side, etc.
 *Out of money and cannot keep going forward
+Make product without proper documentation
 
 ########### Базовые проблемы при разработке - технические
 
-Структура базы данных
-настройка paymernt systems
- автоматические нотификации пользователям
- Order systems, working with funds and with refunding - automatically
- HTTPs must be configured in order to taking save payments
+Database structure
+payment systems setup
+notification system
+Order systems, working with funds and with refunding - automatically
+Note: HTTPs must be configured in order to taking save payments
  Lifecycle emails
- Расширяемость, добавляемость функийии
- Support, Faq section, ittercations with humans
- систематизация контета и взаимодействия внутри комманды
+ Make project extendible, without big pain
 
- Идея: просмотреть документы от вольберга
+ Support, Faq section, ittercations with humans
+ Create an agile team
+ Search
+ Localization
+ 
+
+ 
