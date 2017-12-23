@@ -129,11 +129,6 @@ AWS, DigitalOcean, Heroku, Linode - right candidates. Have similar functionality
 Pricing similar too: $10-$20 per month. So for first year you must have $250.
 My personal choice: Linode or Digital Ocean - they have different method for server setup, but each experienced developer can cooperate with them easy. This will help you to cover important parts of development, as code version control, migrations, staging version setup, roll-in/roll-out updates, testing, backups. etc.
 
--------
-
-In the beginning you'll have slow growth. You can see it right now. This will be because you don't have critical mass right now: users, products, countries, followers at social media, engaged followers(Important), revenue per month, articles in media, etc.
-
-When you've got your critical mass - you'll got your fast growth and this will be a mark, when you find out that your startup is useful and you know WHAT your clients need. Before this moment you need to test different ideas. It's better to have few options, rather than on. This will give you opportunity to grow fast.
 
 ----------
 
@@ -216,9 +211,6 @@ Pages management
 Support workflow
 Blog workflow
 
-------
-You need to follow instructions on this website to get more PR: https://casual.pm/how-to/startup-press-coverage
-
 -------
 Notification system
 Later can be integrated with push-notifications in application
@@ -234,6 +226,8 @@ SendGrid/Mailchimp/Mandrill for email campaigns(mass mailing)
 You also can create and invite people to sales events from Facebook pages. Really cool method to be engaged.
 
 You can use emails for marketing, sales, tips for sellers, share coupons, emails for free-trial period, registration emails, payment reminders, unsubscribe email, account suspension, billing / receipt information
+
+
 
 
 You should have answers for this questions:
@@ -258,6 +252,13 @@ How you'll make him understand that all is working fine?
 
 --------
 marketing plan
+
+-------
+
+In the beginning you'll have slow growth. You can see it right now. This will be because you don't have critical mass right now: users, products, countries, followers at social media, engaged followers(Important), revenue per month, articles in media, etc.
+
+When you've got your critical mass - you'll got your fast growth and this will be a mark, when you find out that your startup is useful and you know WHAT your clients need. Before this moment you need to test different ideas. It's better to have few options, rather than on. This will give you opportunity to grow fast.
+
 
 Sharing, posting - important stuff!
 Sales, Single product promotions - that will bring attention.
@@ -286,6 +287,15 @@ Add each connection from AngelList to Linkedin with note "from AngelList" - reas
 
 ask your friends to link FB page of BBC, facebook have automatic functionality for this
 
+
+---
+Note: for managing contacts - you need to use CRM start with hubspot Sales - free and easy to manage.
+---
+
+
+------
+You need to follow instructions on this website to get more PR: https://casual.pm/how-to/startup-press-coverage
+
 ------
 
 Promotion for different type of clients.
@@ -310,9 +320,9 @@ Extended version of database must have complex logic for categorization.
 
 
 I propose to have 3 stages for categories:
-easy) just copy content from first BBC website.
-difficult) complex structure, that cover most types of products
-not easy)  leave only categories, that makes profit. other categories can be just trashed, or moved to "other/uncategorized" section
+* easy) just copy content from first BBC website.
+* difficult) complex structure, that cover most types of products
+* not easy)  leave only categories, that makes profit. other categories can be just trashed, or moved to "other/uncategorized" section
 
 
 ///////////////////////////////
@@ -330,89 +340,48 @@ Admin validation for companies and "paying links"
 
 "Open BBC in new countries" - fast way
 
-Big, fast, easy and accurate product import. Ex: Large company have 500 products on different categories with different content and different product attributes: outfit, shoes, accessories, perfumes. Like Louis Vuitton houlding.
+Big, fast, easy and accurate product import. Ex: Large company have 500 products on different categories with different content and different product attributes: outfit, shoes, accessories, perfumes. Like Louis Vuitton company.
 
 Business directory of companies(I think you'll need it). It can be created using data that will submit business owners to you. This will also add some functionality to your project and can increase profits.
 
 
 
 
----
-Note: for managing contacts - you need to use CRM start with hubspot Sales - free and easy to manage.
----
-
- - Affiliate management
-
-- Link generation and click counts. We need to create a rule for good SEO of paying links. And add statistics and count how many users click and go to business website and buy it or not something, sign up or not. Like reverse affiliate management.
-
-
-
- - relative products. I think you can find a few big affiliate networks and use it for some money and growth. Like Etsy, Amazon. Better way to use data scraping, but manage categories and countries by hands.
-
-- Categorisation. DB schema, analytics, types. A lot of things to discuss.
-
-- Address book. A lot of databases or frameworks have it like extension.
-
-- Working with SEO, meta tags, titles, shares, etc.
-
-- Marketing stuff.
-
-- Blog content management. Will also help in SEO.
-
- - Each page / Paying links must have extended version of meta attributes, schema.rog attributes
-
-- It will be foreseeing move to create an API at backend/architecture development stage.
-- Another feature can be chatbot development. it can be integrated on different messengers and will help users to browse products on BBC from Fb Messenger app
-
-
-- Search functionality must use search engine with indexes, caching, etc. it will be important, when you'll store big amount of data
-
-- Products Delivery. Did you plan to organize product delivery? I think you need delivery, if you'll be well funded. In other case you can risk your reputation if business owner(paying links buyer) fail something. With product delivery you'll need to include shipping calculations.
-
-- support
-
-- Money-Back situations. So, if user buy something, but later want to return money - you'll be able send back his money account.
-
-
-- How website will work in different countries, who will manage it and who will be responsible for growth. How you'll measure success' for             BBC.
-
-
 =========
 
 Database parts:
 
-***Address book
+###Address book
 Countries
 Towns
 Business Addresses
 Contact Data
 
-***Users
-***Categories
-***Business types
+###Users
+###Categories
+###Business types
 
-***Orders
-***Statistics
-***Affiliates
-***Google maps data
+###Orders
+###Statistics
+###Affiliates
+###Google maps data
 
-***Products/paying links
+###Products/paying links
 Product attributes like size, count, color, etc.
 Paying links statistics
 Options/ settings
 Chat DB
 
-***Languages, localization stuff
+###Languages, localization stuff
 
-***Blog
-
+###Blog
 Write at least 1-3 posts per week
 
 
 
 
 Support===========
-best choise - use intercom, but it's not cheap.
+best choice - use intercom, but it's not cheap.
 It's a good choice if you have more than 50 daily tickets. It give ability to create 'helpers' for different project pages - this helpers can motivate and help users to registrate, purchase pricing plans, add something to website, etc.
 This tool can increase revenue.
 
