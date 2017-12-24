@@ -1,85 +1,112 @@
-Разбил проект на 4 базовых майлстоуна:
-1) заставить чтобы хоть чтото работало
-2) основные функции должны работать и использоваться.
-пользователю должно быть полностью понятно как работать с ботом.
-3) добавление дополнительных команд которые расширят функционал
-4) разрабатываются дополнительные фичи, сложные функционал, который переносился со всех остальных майлстоунов в конец
+This is second article related to Earwig bot(BugBot clone).
+First article link.
 
+I start to work on this project during ProductHunt Global hackanton #1
+Thanks PH team for this experience!
 
-Самое главное было заранее расписать опдзадачи, распреджелить порядок выполнения задач и придерживаться расписания выполнения поставленных задач.
+When i work on project management i split project into 4 main milesones:
+0) setup another repository, related to start to work with Github API.
+1) something must work. basic functionality only.
+2) main functionality should work. After this milestone i can use this bot in my working routine.
+3) additional slash commands. Extended functionality + implement few cool features.
+4) Complex features that i would love to have. This milestone have all wishes that was moved from other milestones.
 
-Я решил написать краткий список того, что я должен взять по окончанию хакатона.
-Это описание желательно использовать и другим командам. ведь это почти и есть описание проекта.
+It was important to create a document, where i write down sub-tasks, add priority to tasks, make step-by-step plan(organize my task, add order).
+I create some sort of schedule, which i'm trying to follow.
 
+First of all i complete list of tasks that i must complete before hackaton will end.
+Other teams should have similar plans, for sure. `cause this is project description as it is.
 
-to deliver: - это было краткое описание того, что должно выдаться в конце.
-важно было иметь такого типа описание - чтобы потом проверить все ли сделанно правильно.
-
+I have an issue(task) at github, where i write down 'to deliver list'.
+for me it was important to have it, so i didn't forget anything when i launch a first online version.
+To deliver list:
 
 homepage with logo with explanation
 deploy to heroku
-nice slash registered at both
-can Botkit be implemented with recastai
-Check recast starter core
-Simple explanation
-
-That it. Yep a lot of things are covered but все остальные детали нужно будет решать потом, а это важные, кототорые напрягают.
-
-Важной частью в хакатоне продуктханта уделили маркетингу и продвижению проекта, получанию первых пользователей и генерации first buzz.
-
- Потом отдельно я выписал основные функции, которые я планирую создать внутри проекта и записал их отдельно.
-
- Возможно это и не самое умное и необходимое действие вначале проекта, но как минимум потом можно использовать как чеклист.
-
- Другим важным моментом было расписать работу на несколько майлстоунов. в процессе разработки можно посмотреть будущий функционал и именно принять работу проекта в более нужную, следующую версию.
-
- Потом было важно расширить шаг за шагом, что же  делать пользователь
-
- прописать работу потом в первый запуск и другие запуски.
- В этот момент появляется понимание функционала
- , имеем slash команды и появляются первые ""фишки"" проекта
- Фичи добавляются в M#4
-
- Потом я расписал будущий функционал для основных слеш команд: "task", "repos", "github", "help"
-
- потом в уме я представил что бы я хотел делать с помощью каждой команды и на отдельном оистике начал по максимуму функционала, которые относится к определнным модулям.
-
- каждый модуль будет иметь функционал, который я перечислил только к 4 релизу.
- Это максимальный pack.
-
- Каждый майстоун у меня была представляем в нескольких видах.
- *- общий, короткий
- *- расширяемый план с перечислением задач
- большие подмодули в которых перечислен step-by-step разработка функционала
-
- отдельно я выписал автоматические ответы на действия пользователя.
- Это позволит мне определить эти строки в начале файла и не усложнять код.
-
- Отдельно я сформировал список вопросов. Основные вопросы вида:
- это было бы интересной фишкой, но могу ли я это сделать.
+nice slashes registered at both project, Slack directory
+can Botkit be implemented with recastai?
+Check recastai starter core
+Simple explanation of how bot works
 
 
- Иногда, когда могут уже не думает при этом можно  переключится на ричерч, и посмотреть примеры
 
 
- Этот список позволит переключится с bug fixes на фичи, ведь они тоже понадобятся в следующих релизах.
+That it. Yep a lot of things was covered. A lot of details will popup during to development. But this was most important and complex thing.
+Hope nothing new wouldn't scary me.
 
- После того, как я прегрупировал задачи и распределил их на 4 релиза - в первом майлстоуне мне нужно было реализовать только 4 функции.
+Biggest part of hackaton is marketing and building database of a first adopters.
+I must generate first buzz.
+
+Then i created another document(where you'll start to code, dude? - I have 2 days without my computer - this is why i write a lot in paper)
+This document contain basic list of functions, that i plan to create.
+This is just list of function names. nothing more. but later it'll became another checklist before launch.
+Example:
+view_issue_data()
+fetch_repo()
+set_default_repo()
 
 
- благодаря такой детальной проработке проекта до начала работы над кодом - я уверен что это съекономило мне несколько дней.
+This is just another layer of project abstraction. It'll help to move from one to another milestone for sure.
 
- Я также решил проимпрувить Readme.
+Next step was to create a 'user story' - example about how user will start to use bot.
+Later this plan will help to create a dialog flow.
 
- Как минимум это поможет мне потом при создании контента для сайта.
+Only at this time i start to realize full scope of project.
+I have all slash commands that i must to create. I start to understand what 'features' my bot can have.
+All this new features i add into milestone #4
 
- 2 По сути, в реадми я просто перенес уже структурированную раньше информации.
+next step: i write down functionality about main slash commands: "task", "repos", "github", "help".
+I imagine what each command will do and write this into paper too.
+Max functionality each command will have only at milestone #4. It'll be maximum pack.
 
- Написать что проект был участником Product Hunt hackaton #1
+ Next step:
+ improve data related to milestones.
+ So i have each milestone in two diffent states
+ * basic, short
+ * advanced plan with attached tasks. Big sub-modules have step-by-step development plan
 
- Ссылка на сплаш page:
- Ссылка на текущий сайт:
- Ссылка на PH:
- В днамической разработке.
+ 
+A little more about milestones.
+simple version
+- only directed messages and directed replies
+- help section
+- not save data into mongodb
+- add issue to array(title & description)
+- get all tasks from array
+- remove task from array
+- assign task to repository
+- first simple dialog flow (pick repository -> add task -> push to github -> view response with results)
 
- ССылку на реадме & Github repo.
+second
+- aliases(short names for repositories)
+- alias CRUD
+- DB connection
+- more commands
+- more options to work with bot
+- view issue data
+- add information into issue(comment, assignee)
+- pagination
+
+third
+- /advanced mode
+- /setup
+- /help
+- /settings
+- search functionality(issues, repositories)
+- commit on master branch?
+- github and slack logout
+
+
+Create list with bot replies.
+this will give me ability to setup constants in top of my file, so code will be less complex.
+
+Create list with questions that i must to solve.
+
+ So a lot of research was done.
+ After task regroup and split them into 4 milestones - in first milestone i have only 4 functions.
+ it was amazing. everythings was clear. It save a lot of my development hours, for sure.
+ 
+ I decide to improve Readme file too.
+ Later i copy that content into 'help' section.
+ 
+Hope this was interesting to read for you. Dont' forget to clap and try to use a similar approach as i did.
