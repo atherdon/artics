@@ -1,14 +1,23 @@
 questions list
 
-
+===Current software
 What tools that you using online at your work?
 What do you want to have at dietary management, weight loss software when you think aboiut trying something new?
+
+Did you use some sort of products, that helps you to manage your work routine?
+What features do you use?
+What you want to be improved in this software?
+
 What did you think cannot be done or improved(related to your current software or similar software that you know)?
 
-what top 5 functionality we must have from start, do you have a sample that can be viewed online?
-User fill form and you get a profile with data
-Recipes with calendar feature(so you can create a custom meal plan)
-something else?
+Is it important to track your patients progress? How do you track the progress?
+
+
+===Functionality
+What top 5 functionality we must have from start, do you have a sample that can be viewed online?
+* User fill form and you get a profile with data
+* Recipes with calendar feature(so you can create a custom meal plan)
+* Something else?
 
 Can you describe step-by-step process how you work with your clients?
 
@@ -16,13 +25,14 @@ How that functionality(first stage only) can be connected to a fitness tools, pr
 Calories counter, excercises time, etc?
 
 
-
-ok, if you want to receive payments, what methods would you prefer? Can you explain why?
+===Payments
+Ok, if you want to receive payments, what methods would you prefer? Can you explain why?
 Do you want/must have recurring events?
 
 
-
-Какой минимальный функционал будет выполнять ваши задачи, когда мы говорим о диетах, рецептах и meal planning?
+===Minimal working functionality
+Какой минимальный функционал будет выполнять ваши задачи,
+ когда мы говорим о диетах, рецептах и meal planning?
 What simple
 can be a minimal functionality
 
@@ -30,15 +40,17 @@ Can you describe a simple functions, that can handle your task, related to diets
 This will be a first to-do list of things that must be created.
 
 
+===Samples
 Can you share some little, simple diet sample for my review?
 I assume that this sample can illustrate a basic, default flow...
 So it'll be easy for me to understand logic of your work.
+
 
 Do we have something hidden things, that I cannot know about?
 I'm pretty sure we'll find something during the development process. Just want to be prepared from start.
 
 
-Communication
+===Communication
 case #1
 0. user want to start eat better food than before.
 1. he find you somehow
@@ -48,24 +60,18 @@ How do you communicate with your users?
 What they need to provide to you in order to start?
 
 
-Analytics
+===Analytics
 Please give me some hints about how did you go from gettin info from user/patient to created a personalized diet plan.
 
 
 
-Requests from users.
+===Requests from users.
 What usually users want to have in result when they start to communicate with you?
 They want to weight loss help?
 They want to be more energized at morning?
 Just stay fit?
 
 
-Your current software
-Did you use some sort of products, that helps you to manage your work routine?
-What features do you use?
-What you want to be improved in this software?
-
-Is it important to track your patients progress? How do you track the progress?
 
 
 
@@ -79,6 +85,7 @@ Is it important to track your patients progress? How do you track the progress?
 
 Какой следующий этап может быть важным, после того, как вы получите данные от пользователя?
 
-Вы проводите какой то анализ? Что входит в данный анализ? Можно ли его автоматизировать или например упростить процесс(уменьшить потраченное время)
+Вы проводите какой то анализ? Что входит в данный анализ? Можно ли его
+автоматизировать или например упростить процесс(уменьшить потраченное время)
 
 с помощью software...
