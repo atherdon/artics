@@ -1,67 +1,73 @@
-This is a third part of my articles, related to bot development.
+This is the third part of my series, related to bot development.
 
 You can read about it basic functionality and about my development plan
 
 
-As i have a non-wired days i was excited about future, where i develop a slack bot, without any troubles, cause i create a detailed plan.
+November, 25th
+I have a non-wired day. I was excited about future, where I'll develop a slack bot without any troubles. I have a detailed plan and I think it'll be easy to do. It was awesome!
 
+What was done(few days without distractions and internet noise):
+* Functionality
+* Ideas
+* Flow 
+* Step-by-step plan
+* Blockers that can slow down the development process.
 
-It was awesome!
-All functionlaity, ideas, flow and step-by-step plan was created just in few days without distractions.
-And plan has detailed explanations of what to do.
-I discover a lot of things that can block development process.
-
-And at this time i decide to remove all complex stuff and focus at Release #1 functionality only.
-All other functions will be added and set up for a later times.
-
-
-Then i have a free time, while was traveling in train.
-I have a good mood and start to review my paper notes again.
-Then I decide to start to code in paper first(not have a PC or something else to save code).
-So it's like you're trying to write functionality from your head first. And you trying to imagine what problems you'll have and find a ways to avoid future issues. 
-And all stored at paper. My main goal was to be able just sit into my chair with PC and code without any thinking.
-Just typing, debug your code and nothing more - like a robot.
-
-
-But then hackaton was completed. Project was not finished. I have some other stuff to do and i start to understand that i stuck.
-I find that i have a lot of leaks in my knowledge, related to Slack API, Github API and Botkit framework.
-All this things I start to learn one month ago. in order to refresh my memory and make some next steps -
-i tried to categorize papers and documents that was created. I build some sort of mindmap at my wall. But it was not easy to start.
-
-i know myself and if i loose my inspiration and fire - things will go very slow.
-And i find a way how to do something easy and interesting and contribute to 
-
-
-Please welcome my idea!
-Instead of build one bot, i'll build 10 bots simultaneously. It's some sort of challenge.
-My preliminary estimate is about 2 month, but i'm pretty sure i'll take at least 4-5. But it quite interesting.
+It was a heaven for the project manager.
 
 
 
-I'll be honest - i don't create this 10 future projects from my head in 1 hour. Most of this functionality i plan to build at least 9 month. 
-But I postpone it due to it complexity. 
-Before i don't know how combine this projects together. But right now this puzzle is done.
-
-I decide to be as lazy as i can and spend time only at important thigs. And video games. And beer.
-
-So all bots will be inside my main repository. 
-Why? because why i need to spend time on setting up 10 other projects, generate Secret keys, create repositories and push code?
-As i build bot - other project is awesome place to start fast.
-It's important for saving time. So to be as lazy as i can - this is story about this projects:)
+And at this time I decide to pause my work at any complex stuff and focus on Release #1 functionality only.
+All other functions will be added and set up later.
 
 
- So before i was filling readme, with explanation related to Earwig development plan - i decide to use that plan for creating a new plans.
+I was traveling and have a good mood.
+I start to review my paper notes again and decide to start coding in my paper notebook. 
+It was like you're trying to write functionality from your head. And you trying to imagine what problems you'll have and find ways to avoid future issues. And all stored in paper.
+
+So later I'll be able to code without any thinking. Just typing, debug your code and nothing more - like a robot.
+
+
+But hackathon was completed. The project was not finished. I have some other stuff to do and I start to understand that I was stuck.
+I find out that I have a lot of leaks in my knowledge, related to Slack API, Github API, and Botkit framework.
+All these things I started to learn one month ago. In order to refresh my memory and make some next steps -
+I tried to categorize papers and documents that were created. I build some sort of mindmap on my wall. But it was not easy to start. Still not easy.
+
+I know myself and if I lose my inspiration and fire - things will go very slow.
+And I find a way how to do something easy and interesting and contribute to Earwig development.
+
+
+Long story short:
+I'll build 10 bots simultaneously. In order to speed up Earwig development. It's a challenge.
+My preliminary estimate is about 2 month. Pretty sure It'll take at least 4-5 months. But it's quite interesting. And crazy.
+
+
+Most of this functionality(10 sub-projects) I plan to build at least 9 months.  I'm not starting from 0.
+This projects was postponed due to its complexity. 
+
+I have no idea how to combine this projects before. But right now this puzzle is done.
+
+
+
+I decide to be as lazy as I can. Will spend time only on important functionality. And video games. And beer.
+
+So all bots will be inside my main repository, related to Earwig development. 
+Why? Because why I need to spend time on setting up 10 other projects, generate Secret keys, create repositories and push code? Is it so necessary? I think nope.
+
+As I build new bot - another bot project is an awesome place to start fast. It's important for saving time. So to be as lazy as I can - this is my story :)
+
+I use Earwig development plan and create new plans. 
  
- Without worries I write down names for that 10 projects. if i'll spend 1 week per project - it will take about 10 weeks.
- But i know that this new approach will save me a lot of time in future.
- I start to write down an short description for each project.
- One project = one paper sheet. It's was easy to do, `cause i think about this projects a lot of time.
- And i know what data i'll need in order to start.
+Without worries, I write down titles for that 10 projects. if I'll spend 1 week per project - it will take about 10 weeks.
+But I know that this new approach will save me a lot of time in future.
+I start to write down a short description of each project.
+One project = one paper sheet. It's was easy to do, `cause I think about this projects a lot of time.
+And I know what data I'll need in order to start.
 
- Using Earwig functionality as a template - i create similar functionality list for each of this sub-projects.
- Basicaly, i cloned big part of functionality to 10 sub-projects. And when I'll build code for one bot, i'll improve another.
+I use Earwig functionality as a template. And created similar functionality list. Ten of them.
+Basically, I copy-paste big part of the Earwig functionality. And when I'll build code for one bot, I'll improve another. Nice plan in my opinion.
 
-This is was my hack. This is how i plan to drive energy back to Earwig development.
+This is was my hack. This is how I plan to drive energy back to Earwig development.
 
-If you interested to know more - please comment and clap. I have a lot of text in drafts. But i need time and motivation to convert it into good article.
-Thank you for your time and next cat is waiting for you
+If you interested to know more - please comment and clap. I have a lot of text in drafts. But I need time and motivation to convert it into a good article.
+Thank you for your time and next cat are waiting for you
