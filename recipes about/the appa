@@ -1,0 +1,75 @@
+Free-recipes version
+
+recipes list(weekly menu analogue)
+
+ app intro with images(finish with displaying content, test how it works, complete js, so app intro opens only one time). Images picked. Controller added. Content picked.
+
+ GL without buttons - long list
+
+ complex recipe
+
+ move styles to appropriate place
+
+ add material design version for free menu version
+
+ change steps in json to directions
+ -------------------------------------
+ 
+ Weekly-Meals(alpha)
+ 
+ 
+ meal plan types(allergies free, gluten free, cooking for two, family with kids(main option))
+
+ Sample menus (3 different types)
+
+ Complex recipe
+
+ complex json parsing
+
+ Grocery list from main json file
+
+ Grocery list template 2 - long scroll-able list with all categories in one page (filter/search will be cool)
+
+ Grocery list settings & Recipe calendar
+
+ Weekly menu from main json file
+
+ Intro with images
+
+ Nutrition facts
+
+ Recipe Image upload to amazon or free storage or to google drive, any fast option
+
+ Angular service with helper methods(just implement methods from api - that it)
+
+ Answer to question - how to have 1 recipe for 3 different meal plans(ingredient A1 replace to A2, ingredient C removed, ingredient D make 2x) - so in grocery list might be changes
+
+ Convert string "1 cup + 1 cup" to "2 cups", "1/4 teaspoon + 2/7 teaspoon" to "15/28 teaspoon", not 0.3333336
+
+ Grocery list can automatically calculate same ingredients from one category from different recipes, from different days
+
+ Servings can be changed in different recipes, different days and this changes might be applied to grocery list
+ 
+ 
+ -----------
+ 
+ BETA
+ 
+ 
+ Database
+
+ GL with save method
+
+ admin dashboard
+
+ search
+
+ API + documentations
+
+ Developers portal(optional)
+
+ Recurring payments from clients (not recurring from meal planning users)
+
+ User can add other users to their plan and this will increase cost but apply some discount too. You can add your family, mom. You can use this for sharing your recipes and grocery between people. like github enterprise, JIRA, Google Apps for business.
+
+ Making package, that can be installed on different servers and run locally, cheaper, but without ability to get updates automatically. Working with main server via API
