@@ -73,3 +73,46 @@ recipes list(weekly menu analogue)
  User can add other users to their plan and this will increase cost but apply some discount too. You can add your family, mom. You can use this for sharing your recipes and grocery between people. like github enterprise, JIRA, Google Apps for business.
 
  Making package, that can be installed on different servers and run locally, cheaper, but without ability to get updates automatically. Working with main server via API
+
+
+
+===================
+
+SERVER SIDE
+
+Free Menu Release(completed):
+
+GET http://localhost:3000/api/menu?access_token=%token%
+Get list with all created menus(with recipe Ids)
+
+GET http://localhost:3000/api/menu/593ac56c2c941720bc3091b1?access_token=%token%
+Get one menu by Id
+
+GET http://localhost:3000/api/menu/last?access_token=%token%
+Get only one latest published menu
+
+GET http://localhost:3000/api/recipe?access_token=%token%
+Get list with all created recipes
+
+GET http://localhost:3000/api/recipe/593abe383199170e50a5272d?access_token=%token%
+Get one recipe by Id
+
+GET recipe/:id/full
+Get recipe with all necessary data like ingredients. @todo Later add stuff like allergies, etc.
+
+GET http://localhost:3000/api/grocery/menu?groceryId=594d45227741a0312874c465&access_token=%token%
+Get ingredients and display them in list view with directions and link to recipy by recipeId
+
+Filter By Published Date: ASC/DESC
+
+=======================================
+
+GROCERY API ONLY
+// POST [/grocerylist/department] Departmentalize a list of strings -- used for ad-hoc grocery list item addition
+// DELETE [/grocerylist] Delete all the items on a grocery list; faster operation than a sync with deleted items.
+// GET [/grocerylist] Get the user's grocery list. User is determined by Basic Authentication.
+// POST [/grocerylist/recipe] Add a Recipe to the grocery list. In the request data, pass in recipeId, scale (scale=1.0 says to keep the recipe the same size as originally posted), markAsPending (true/false) to indicate that the lines in the recipe should be marked in a "pending" (unconfirmed by user) state.
+// POST [/grocerylist/sync] Synchronize the grocery list. Call this with a POST to /grocerylist/sync
+// POST [/grocerylist/item] Add a single line item to the grocery list
+// DELETE [/grocerylist/item/{guid}] [/grocerylist/item/{guid}] DELETE will delete this item assuming you own it.
+// PUT [/grocerylist/item/{guid}] Update a grocery item by GUID
