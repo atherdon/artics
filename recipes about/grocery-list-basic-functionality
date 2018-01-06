@@ -33,3 +33,17 @@ GL
 
 
 create functionality when user uncheck ingredient from GL - so we need to remove it from Purchased list too.
+
+
+==================================
+
+Account system
+Email Notifications
+Send grocery list to email
+Share your grocery list
+CRUD Departments
+CRUD Elements(Ingredients)
+Edit ingredient quantity
+(Maybe) Import grocery from Excel File (data or csv importer??)
+GroceryModel, DepartmentModel, IngredientModel, UserModel Relations
+ACL, ACL for users(user cannot edit ingredients, that he don't own)
