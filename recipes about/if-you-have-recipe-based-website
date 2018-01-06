@@ -1,34 +1,37 @@
-Например у вас есть сайт рецептов и вы бы хотели подключить app.
-вроде бы всю логику работы вы уже знаете, но чтото вам мешает.
+Let's assume that you have a website with recipes. And you want to connect your website to recipe application.
+You understand logic of how it must works, for sure. But something stops you.
 
-надеюсь после прочтения данной статьи вы поймете что добавить апп к вашему сайту это не такая уж и большая проблема.
-конечно случаи бывают разные. моя задача показать что это можно просто сделать с помощью того проекта который я разрабатываю(нету еще готовых проектов, есть только нулевые релизы).
-Подробнее вы можете прочитать [тут]
+My goal was to give you information related to how add app to your website. And show you that this is not a big deal.
+Situations and projects are different, of course. But this can save your time and money - if you'll use project that i'm working on.
+Right now it's not finished. You can read more [here]
 
-Я писал данную статью ориентируясь на предыдущие проекты, которые я делал для своих клиентов. 
-У них вебсайты и апп была бы новой фишкой для пользователей.
-Т.е. тот код, который я сделал, можно брать, немного изменять дизайн и придумать как данные с mySQL базы будут выводится внутри приложения - и использовать на предыдущих проектах над которыми я работал.
-Для версий без регистрации и с free-menu я думаю что достаточно будет хранить json файл онлайн на сервере и с него считывать данные.
-Вариант конечно глупый и имеет много ограничений - зато можно реализовать быстро и будет уже работать.
+Ш was focused on previous projects that was created for my clients when i build a first version of app.
+Similar to this article.
+They have a websites and an application will be a good new feauture for a users.
+They will need to create an app design, find a way how to get data from mySQL databases(WordPress + custom recipes plugin and Custom Database, build with Yii Framework help).
+So current application code can be rebranded and used by my prev. clients.
+They must store json file at online server with data. App will read that file and display recipes in a proper way.
+This version have limited functionality. No user registration, no meal planning - but it can be up in a small amount of time.
 
-Если же например основного сайта нет то можно использовать апп с нашим Recipe API server(подробнее ниже).
-
-Немного про app.
-Написана на Angular(ionic based)
-Внешний вид, структура проекта были сделаны с помощью Ionic Creator.
-Я не выкладывал это приложение в app store, не компилировал код на cordova и не тестировал на app previewer.
-Поэтому могут быть ошибки. Но на симуляторе проект работал и мне этого было достаточно(lazy thing).
-
-След версия приложения планируется делаться на React Native.
-отлично то что у реакт нейтива появился create-react-app - этот starter kit облегчает жизнь таким начинающим разработчикам какк я
-также есть большая база примеров. чтобы стартануть нужно разобраться со структурой реакта и 
-Я недавно за 4 минуты поднял create-react-app blank starter - это сильно упростило мне работу. 
-Год назад чтобы начать работу над react native проектом - нужно было понимать как работает реакт, разбираться в настройке Webpack, etc.
-Парни сильно продвинулись за год и развили технологию. 
+If you don't have a main website - you can use this app with our Recipe API server(more information below).
 
 
+About an app.
+Code written wit Angular. Ionic Framework used.
+First views and basic structure was build and exported at Ionic Creator.
+Note: I didn't send this app to app store. Not compiled and not create a cordova build. And didn't test it at app previewer.
+So it can have an errors. But it was working well at simulator and this was enought for me(lazy thing).
 
-Стадии добавления recipe app в ваш проект, компанию...
+Next version will be created with React Native help.
+it's awesome to have starter like [create-react-app]. It helps a lot. react native also have a big archive with project examples.
+But you'll need to dig into 'React' world. 2 weeks ago i set up create-react-app blank starter. I spend 4 minutes.
+it's a big timesaver for me. Year ago you must know how React works, configurate Webpack and build stuff in order to start working.
+Right now it's not a problem when you just want to open page at localhost. Guys and github community does awesome work.
+
+##Stages(how you can add this app into your project)
+
+
+
 
 1) Соединить контент вашего сайта с app или сделать отдельный content container instance related to app only.
 
@@ -50,14 +53,14 @@ Why? Because it's easy and fast. Solution for a lazy people(simple way).
 
 
 В App release#1 version(Free Menu) существуют такие
-app screens:
+app screens(screenshots availabe at the end of article):
 Login / sign-up
 About app tour
 View Menu(recipes list)
 View Recipe data
 view settings
-profile
-recipe data short/extended (limited for different purposes)
+Profile
+Recipe data short/extended (limited for different purposes)
 Simple grocery list form with to-do checkboxes list.
 
 Note: in this release we have a screens with ingredients list - right now auto-generation(convert recipes data to grocery list) is not working.
@@ -66,7 +69,11 @@ In order to use this functionality you must have another one file with Grocery L
 It'll be generated on the fly - at next stages.
 
 Next Releases:
-В следующем релизе можно включить логин по данным из основной базы и вывод меню на определенную(current weekly menu)
+Enable Login and get information from main database. Display current menu(aka meal planning)
+
 
 Next Releases:
-В следующем релизе можно будет организовать платную регистрацию, subscription management + search with filters.
+Paid subscription, subscriptions management, Advanced search with filters.
+
+
+You can also check this article: https://medium.com/p/recipe-based-tech-projects-database-structure-basic-troubles-to-be-ready-for-6b48cab2dc2b
