@@ -5,7 +5,7 @@ My goal was to give you information related to how add app to your website. And 
 Situations and projects are different, of course. But this can save your time and money - if you'll use project that i'm working on.
 Right now it's not finished. You can read more [here]
 
-Ш was focused on previous projects that was created for my clients when i build a first version of app.
+I was focused on previous projects that was created for my clients when i build a first version of app.
 Similar to this article.
 They have a websites and an application will be a good new feauture for a users.
 They will need to create an app design, find a way how to get data from mySQL databases(WordPress + custom recipes plugin and Custom Database, build with Yii Framework help).
@@ -31,37 +31,35 @@ Right now it's not a problem when you just want to open page at localhost. Guys 
 ##Stages(how you can add this app into your project)
 
 
+1) Your website + app(dsplay content from website). Or you can create separated content container instance. For app only
 
-
-1) Соединить контент вашего сайта с app или сделать отдельный content container instance related to app only.
-
-2) Коннект к базе данных через API endpoints or webhooks. 
+2) App will be connected with your database via API endpoints or webhooks
 
 3) Authorization + Registration inside app. This can be covered by our API.
 Or you can use sign up flow from your previous setup(your own registration way).
 We'll have an advanced security options of API and receiving data in next releases.
 
-главное будет настроить bridge between your db, API and app.
-И если наше API и app могут(будут) работать вместе без дополнительной настройки, 
-то ваш собственный проект и база данных будут нуждаться в некоторых изменениях с вашей стороны
 
-Release #0 Recipe API и Release #1 APP позволит уже сейчас запустить приложение с функционалом free menu:
-display 5-6 recipes per week, with additional data.
+Most complex thing related to building a bridge between your website database, API and app.
+Our recipe API and an app can(might) work together without complex setup. But your project and database will require some changes.
 
-Если спросить моего мнения - на первом этапе я бы настроил работу приложения без подключения к API или к вашей базеданных.
-Why? Because it's easy and fast. Solution for a lazy people(simple way). 
+You are able to setup an app with free-menu functionality right now.
+You'll display 5-6 recipes for a week, with additional data. You'll use Recipe API(Release #0) and Ionic App(Release#1)
+
+If you ask my opinion - it's better to setup an app without connection to API or database. 
+Why? Because it's easy and fast. Solution for a lazy people(simple way). You can launch it fast and show to your users.
 
 
-В App release#1 version(Free Menu) существуют такие
-app screens(screenshots availabe at the end of article):
-Login / sign-up
-About app tour
-View Menu(recipes list)
-View Recipe data
-view settings
-Profile
-Recipe data short/extended (limited for different purposes)
-Simple grocery list form with to-do checkboxes list.
+
+Ionic App(release #1) aka Free Menu have this app screens(screenshots availabe at the end of article):
+*Login / sign-up
+*About app tour
+*View Menu(recipes list)
+*View Recipe data
+*View settings
+*Profile
+*Recipe data short/extended (limited for different purposes)
+*Simple grocery list form with to-do checkboxes list.
 
 Note: in this release we have a screens with ingredients list - right now auto-generation(convert recipes data to grocery list) is not working.
 In order to use this functionality you must have another one file with Grocery List items only.
@@ -77,3 +75,8 @@ Paid subscription, subscriptions management, Advanced search with filters.
 
 
 You can also check this article: https://medium.com/p/recipe-based-tech-projects-database-structure-basic-troubles-to-be-ready-for-6b48cab2dc2b
+
+Со временем мы обновим дизайн и сделаем его красивее, используя UI Kits которые сейчас уже есть на рынке.
+В данный момент дизайн не является приоритетной задачей для этого проекта.
+Мы хотим чтобы вначале все работало а потом сделаем чтобы это выглядело красиво.
+https://github.com/atherdon/recipe-app-react/issues/40
