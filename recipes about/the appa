@@ -116,3 +116,15 @@ GROCERY API ONLY
 // POST [/grocerylist/item] Add a single line item to the grocery list
 // DELETE [/grocerylist/item/{guid}] [/grocerylist/item/{guid}] DELETE will delete this item assuming you own it.
 // PUT [/grocerylist/item/{guid}] Update a grocery item by GUID
+
+-------------------------------------------
+App loader
+Auth screens: Login/Signup/Password recovery
+Social screens: User profile/Profile settings/Notifications/Contacts/Feed
+Articles Lists & Article details
+Chat list/Chat details/Comments
+Dashboard
+Walkthrough
+Credit cards
+Different navigation types
+Settings
