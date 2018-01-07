@@ -1,3 +1,15 @@
+List of milestones for the app.
+
+0) Free-recipes
+1) Weekly menu
+1.2) Grocery List
+2) Authentification
+3) Payments
+4) Search
+5) Import recipe
+6) Completed meal planner software
+
+
 Free-recipes version
 
 recipes list(weekly menu analogue)
@@ -53,7 +65,7 @@ recipes list(weekly menu analogue)
  
  -----------
  
- BETA
+ Next important things.
  
  
  Database
@@ -78,9 +90,10 @@ recipes list(weekly menu analogue)
 
 ===================
 
-SERVER SIDE
+SERVER SIDE(Handled in our Recipe API server)
 
-Free Menu Release(completed):
+Free Menu Release(completed).
+Below we have a list with used URLs(remote methods)
 
 GET http://localhost:3000/api/menu?access_token=%token%
 Get list with all created menus(with recipe Ids)
@@ -107,7 +120,7 @@ Filter By Published Date: ASC/DESC
 
 =======================================
 
-GROCERY API ONLY
+GROCERY API ONLY(working as separated project - GroceriStar)
 // POST [/grocerylist/department] Departmentalize a list of strings -- used for ad-hoc grocery list item addition
 // DELETE [/grocerylist] Delete all the items on a grocery list; faster operation than a sync with deleted items.
 // GET [/grocerylist] Get the user's grocery list. User is determined by Basic Authentication.
@@ -118,21 +131,34 @@ GROCERY API ONLY
 // PUT [/grocerylist/item/{guid}] Update a grocery item by GUID
 
 -------------------------------------------
-App loader
-Auth screens: Login/Signup/Password recovery
-Social screens: User profile/Profile settings/Notifications/Contacts/Feed
-Articles Lists & Article details
-Chat list/Chat details/Comments
-Dashboard
-Walkthrough
-Credit cards
-Different navigation types
-Settings
+Main screens that must be created(default stuff)
+* App loader
+* Auth screens: Login/Signup/Password recovery
+* Social screens: User profile/Profile settings/Notifications/Contacts/Feed
+* Recipes Lists & Recipe details
+* Chat list/Chat details/Comments
+* Dashboard
+* Walkthrough
+* Credit cards
+* Different navigation types
+* Settings
 
 
---------------
-Option 1 Free Menu (Recipes) App — Angular + Ionic Framework(prev. version)
-Release #1 compled: recipes list, recipe details.
-Note: soon I’ll redo an app from scratch.
 
-Note: yep, any junior can do an app with similar complexity — not a rocket science :)
+2) Authentification
+Facebook first
+Auth with tokens can be handled with help of our Recipe API.
+
+3) Payments
+Stripe with recurring process.
+In-app purchases
+Enable Recurly is next priority thing
+4) Search
+Partlialy done, can be handled with help of our Recipe API.
+
+5) Import recipe
+Thinking about this feature. Don't want to have a lot of messy forms.
+If we can scan and then recognize text - i'll be "in" this milestone.
+
+6) Completed meal planner software
+Working version as different startups in Food Tech have.
