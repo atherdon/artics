@@ -1,0 +1,199 @@
+How I plan to get from app idea into working prototype
+
+What I have at this moment:
+working API
+app-example that I build on Ionic
+screen for each page that I need to have
+I can create some sort of design by using premium design templates.
+I have data for testing
+registration can be done with help of Loopback API(IBM)
+
+So a lot of problems was solved at this moment.
+
+
+We'll need to cover this questions
+how we'll create, submit and host an app
+
+I want to add a budget planner
+How we'll handle subscriptions(payments)
+Decide do we need to have blog feature?
+It will be cool to add food delivery, but @Instacart not replied to their marketing emails :( 
+
+We must have filters for different cuisines, allergies(other types)
+
+I was thinking about creating an ability for users to create and publish their own cookbooks
+
+Can we add an analytics and understand how our users like or use our recipes
+
+In next releases, we must add grocery management to categories.
+
+Maybe add pantry management 
+
+How can we handle support stuff inside an application?
+
+
+
+--------------------------------------------------
+Milestones
+
+0) Free-recipes
+1) Weekly menu
+1.2) Grocery List
+2) Authentification
+3) Payments
+4) Search
+5) Import recipe
+6) Completed meal planner software
+
+
+Free-recipes version
+
+Recipes list(weekly menu analog)
+
+An app intro with images(finish with displaying content, test how it works, complete js, so app intro opens only one time). Images picked. Controller added. Content picked.
+
+Grocery List without buttons - long list
+
+Complex recipe
+
+ Move styles to appropriate place
+
+ Add material design version for free menu version
+
+ Change steps in JSON to directions
+ -------------------------------------
+ 
+ Weekly-Meals(alpha)
+ 
+ 
+Meal plan types(allergies free, gluten free, cooking for two, a family with kids(main option))
+
+Sample menus (Different types)
+
+Complex recipe
+
+Complex JSON parsing
+
+Grocery list from main JSON file
+
+Grocery list template 2 - long scroll-able list with all categories in one page (filter/search will be cool)
+
+Grocery list settings & Recipe calendar
+
+Weekly menu from main JSON file
+
+Intro with images
+
+Nutrition facts section for recipe details page
+
+Recipe Image upload to Amazon or free storage or to google drive, any fast option
+
+Enable "service" with helper methods(just implement methods from API - that it)
+
+Answer to question - how to have 1 recipe for 3 different meal plans(ingredient A1 replace A2, ingredient C removed, ingredient D make 2x) - so in grocery list might be changes
+
+Unit conversion + measurements. Convert string "1 cup + 1 cup" to "2 cups", "1/4 teaspoon + 2/7 teaspoon" to "15/28 teaspoon", not 0.3333336. 
+
+Grocery list can automatically calculate same ingredients from one category from different recipes, from different days
+
+ Servings can be changed in different recipes, different days and this changes might be applied to grocery list
+ 
+ 
+ -----------
+ 
+ Next important things.
+ 
+ 
+ Database
+
+ Grocery List with save() method
+
+Admin dashboard
+
+Advanced search
+
+ API + completed documentation
+
+ Developers portal(optional)
+
+ Recurring payments from clients (not recurring from meal planning users)
+
+ The user can add other users to their plan and this will increase cost but apply some discount too. You can add your family, mom. You can use this for sharing your recipes and grocery between people. like GitHub enterprise, JIRA, Google Apps for business.
+
+ Making package, that can be installed on different servers and run locally, cheaper, but without an ability to get updates automatically. Working with the main server via API
+
+
+
+===================
+
+SERVER SIDE(Handled in our Recipe API server)
+
+Free Menu Release(completed).
+Below we have a list of used URLs(remote methods)
+
+GET http://localhost:3000/api/menu?access_token=%token%
+Get list with all created menus(with recipe Ids)
+
+GET http://localhost:3000/api/menu/593ac56c2c941720bc3091b1?access_token=%token%
+Get one menu by Id
+
+GET http://localhost:3000/api/menu/last?access_token=%token%
+Get only one latest published menu
+
+GET http://localhost:3000/api/recipe?access_token=%token%
+Get list of all created recipes
+
+GET http://localhost:3000/api/recipe/593abe383199170e50a5272d?access_token=%token%
+Get one recipe by Id
+
+GET recipe/:id/full
+Get recipe with all necessary data like ingredients. @todo Later add stuff like allergies, etc.
+
+GET http://localhost:3000/api/grocery/menu?groceryId=594d45227741a0312874c465&access_token=%token%
+Get ingredients and display them in list view with directions and link to recipe by recipeId
+
+Filter By Published Date: ASC/DESC
+
+=======================================
+
+GROCERY API ONLY(working as separated project - GroceriStar)
+// POST [/grocerylist/department] Departmentalize a list of strings -- used for ad-hoc grocery list item addition
+// DELETE [/grocerylist] Delete all the items on a grocery list; faster operation than a sync with deleted items.
+// GET [/grocerylist] Get the user's grocery list. User is determined by Basic Authentication.
+// POST [/grocerylist/recipe] Add a Recipe to the grocery list. In the request data, pass in recipeId, scale (scale=1.0 says to keep the recipe the same size as originally posted), markAsPending (true/false) to indicate that the lines in the recipe should be marked in a "pending" (unconfirmed by user) state.
+// POST [/grocerylist/sync] Synchronize the grocery list. Call this with a POST to /grocerylist/sync
+// POST [/grocerylist/item] Add a single line item to the grocery list
+// DELETE [/grocerylist/item/{guid}] [/grocerylist/item/{guid}] DELETE will delete this item assuming you own it.
+// PUT [/grocerylist/item/{guid}] Update a grocery item by GUID
+
+-------------------------------------------
+Main screens that must be created(default stuff)
+* App Loader
+* Auth screens: Login/Signup/Password recovery
+* Social screens: User profile/Profile settings/Notifications/Contacts/Feed
+* Recipes Lists & Recipe details
+* Chat list/Chat details/Comments
+* Dashboard
+* Walkthrough
+* Credit cards
+* Different navigation types
+* Settings
+
+
+
+2) Authentification
+Facebook first
+Auth with tokens can be handled with help of our Recipe API.
+
+3) Payments
+Connect Stripe, enable recurring payments.
+In-app purchases
+Enable Recurly is next priority thing
+4) Search
+Partially done, can be handled with help of our Recipe API.
+
+5) Import recipe
+Thinking about this feature. Don't want to have a lot of messy forms. If we can scan and then recognize text - I'll agree to work on this milestone.
+
+6) Completed meal planner software
+Working version as different startups in Food Tech has.

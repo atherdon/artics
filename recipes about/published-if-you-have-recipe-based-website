@@ -1,48 +1,93 @@
-Например у вас есть сайт рецептов и вы бы хотели подключить app.
-вроде бы всю логику работы вы уже знаете, но чтото вам мешает.юююю
+Let's assume that you have a website with recipes. And you want to connect your website to recipe application.
+You understand the logic of how it might work, for sure. But something stops you.
 
-надеюсь после прочтения данной статьи вы поймете что добавить апп к вашему сайту это не такая уж и большая проблема.
-конечно случаи бывают разные. моя задача показать что это можно просто сделать с помощью того проекта который я разрабатываю
+My goal was to give you information related to how to add an app to your website. And show you that this is not a big deal.
+Situations and projects are different, of course. But this can save your time and money - if you'll use project that I'm working on.
+Right now it's not finished. You can read more [here]
 
-для этого можно использовать наш API server и нашу же простую app, написанную на Angular(ionic based).
-код доступен на гитхабе, правда осталось сделать конвертацию кода с помощью cordova.
-но на симулятре все работало, поэтому я и забил это делать.
-След версия приложения планируется делаться на React Native.
-отлично то что у реакт нейтива появился create-react-app - этот starter kit облегчает жизнь таким начинающим разработчикам какк я
+I was focused on previous projects that were created for my clients when I build the first version of the app.
+Similar to this article.
+They have websites and an application will be a good new feature for users.
+They will need to create an app design, find a way how to get data from MySQL databases(WordPress + custom recipes plugin and Custom Database, build with Yii Framework help).
+So current application code can be rebranded and used by my prev. clients.
+They must store JSON file at an online server with data. The app will read that file and display recipes in a proper way.
+This version has limited functionality. No user registration, no meal planning - but it can be up in a small amount of time.
 
-1) вы можете как соединить контент вашего сайта, так и сделать отдельный instance only for app.
-
-2) вы можете напрямую делать коннект к базе и брать данные из нее или использовать API endpoints
-
-3) authorization + registration - covered by our API. Or you can use sign up flow from your previous setup.
-in next releases we'll advance security options of API and receiving data.
-
-главное будет настроить bridge between your db, API and app.
-
-с помощью апи вы легко сможете сейчас запустить функционал Free Menu(5-6 recipes per week, with additional data)
-This was finished in release #0(API) + release #1(APP)
-
-При этом, если вы нехотите заморачиваться - вы всегда в первом шаге можете настроить работу app без  подключения к API и вашей базе.
-Можно все упростить(ведь это цель этой статьи).
-Данные могут выводится из статического файла. который лежит на сервере и доступен по открытому URL.
-
-В App release#1 version(Free Menu) существуют такие
-app screens:
-Login / sign-up
-About app tour
-View Menu(recipes list)
-View Recipe data
-view settings
-profile
-recipe data short/extended (limited for different purposes)
-Simple grocery list form with to-do checkboxes list.
-
-Note: in this release we have a screens with ingredients list - right now auto-generation is not working.
-So in order to use this functionality you must have another one file with Grocery List items.
-
-later it'll be generated on the fly.
-
-В следующем релизе можно включить логин по данным из основной базы и вывод меню на определенную(current weekly menu)
+If you don't have the main website - you can use this app with our Recipe API server(more information below).
 
 
-В следующем релизе можно будет организовать платную регистрацию, subscription management + search with filters.
+About an app.
+A code is written with Angular help. Ionic Framework used.
+First views and basic structure was build and exported at Ionic Creator.
+Note: I didn't send this app to app store. Not compiled and not create a Cordova build. And didn't test it at app previewer.
+So it can have errors. But it was working well at the simulator and this was enough for me(lazy thing).
+
+Next version will be created with React Native help.
+it's awesome to have a starter like [create-react-app]. It helps a lot. react native also has a big archive of project examples.
+But you'll need to dig into 'React' world. 2 weeks ago I set up a create-react-app blank starter. I spend 4 minutes.
+it's a big timesaver for me. A year ago you must know how React works, configuration Webpack and build stuff in order to start working.
+Right now it's not a problem when you just want to open a page at localhost. Guys and GitHub community do awesome work.
+
+##Stages(how you can add this app to your project)
+
+
+1) Your website + app(display content from the website). Or you can create separated content container instance. For app only
+
+2) App will be connected to your database via API endpoints or webhooks
+
+3) Authorization + Registration inside app. This can be covered by our API.
+Or you can use sign up flow from your previous setup(your own registration way).
+We'll have an advanced security option for API and receiving data in next releases.
+
+
+Most complex thing related to building a bridge between your website database, API, an app.
+Our recipe API and an app can(might) work together without complex setup. But your project and database will require some changes.
+
+You are able to set up an app with free-menu functionality right now.
+You'll display 5-6 recipes for a week, with additional data. You'll use Recipe API(Release #0) and Ionic App(Release#1)
+
+If you ask my opinion - it's better to set up an app without connection to API or database. 
+Why? Because it's easy and fast. This is a solution for a lazy people(simple way). You can launch it fast and show to your users.
+
+
+
+Ionic App(release #1) aka Free Menu have this app screens(screenshots available at the end of article):
+*Login / sign-up
+*About app tour
+*View Menu(recipes list)
+*View Recipe data
+*View settings
+*Profile
+*Recipe data short/extended (limited for different purposes)
+*Simple grocery list form with to-do checkboxes list.
+
+Note: in this release, we have screens with ingredients list - right now auto-generation(convert recipes data to grocery list) is not working.
+In order to use this functionality, you must have another one file with Grocery List items only.
+
+It'll be generated on the fly - at next stages.
+
+Next Releases:
+Enable Login and get information from the main database. Display current menu(aka meal planning)
+
+
+Next Releases:
+Paid subscription, subscriptions management, Advanced search with filters.
+
+
+You can also check this article: https://medium.com/p/recipe-based-tech-projects-database-structure-basic-troubles-to-be-ready-for-6b48cab2dc2b
+Or how I plan to integrate this application into my main project
+
+I plan to have updated design in next releases. Will make an app better, beautiful by using one of design UI Kits.
+The design part is not an important task for this project.
+I want to make it works first.
+
+I adore this UI Kits:
+https://dribbble.com/shots/2661249-Recipes-App-UI-Kit-Freebie
+
+https://www.sketchapp.com/elements
+
+1357 Recipe App UI Kit(cannot find a link)
+
+https://github.com/akveo/kittenTricks
+
+https://shoutem.github.io/ui/
