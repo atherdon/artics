@@ -1,7 +1,7 @@
 questions list
 
 
-===Current software
+### Current software
 What tools that you using online at your work?
 What do you want to have at dietary management, weight loss software when you think aboiut trying something new?
 
@@ -17,10 +17,10 @@ Is it important to track your patients progress? How do you track the progress?
 
 
 
-===First stage, only important functions
+### First stage, only important functions
 What basic functionality must have project, related to dietary management?
 
-===Functionality
+### Functionality
 What top 5 functionality we must have from start, do you have a sample that can be viewed online?
 * User fill form and you get a profile with data
 * Recipes with calendar feature(so you can create a custom meal plan)
@@ -38,22 +38,21 @@ Meal planing: Allergies, Preferences, Cuisines?
 
 
 
-===Payments
+### Payments
 Ok, if you want to receive payments, what methods would you prefer? Can you explain why?
 Do you want/must have recurring events?
 
+How much did you spend for software that you use at your work(per month)?
 
-===Minimal working functionality
-Какой минимальный функционал будет выполнять ваши задачи,
- когда мы говорим о диетах, рецептах и meal planning?
-What simple
-can be a minimal functionality
+### Minimal working functionality
+What functionality we must to create in order to create project that helps manage diets, meal planning, recipes?
+
 
 Can you describe a simple functions, that can handle your task, related to diets, recipes, etc.
 This will be a first to-do list of things that must be created.
 
 
-===Samples
+### Samples
 Can you share some little, simple diet sample for my review?
 I assume that this sample can illustrate a basic, default flow...
 So it'll be easy for me to understand logic of your work.
@@ -66,12 +65,12 @@ So it'll be easy for me to understand logic of your work.
 
 
 
-++++++++++++++++++++ DETAILED STUFF - ADVANCED +++++++++++++++++
+#### DETAILED STUFF - ADVANCED +++++++++++++++++
 Do we have something hidden things, that I cannot know about?
 I'm pretty sure we'll find something during the development process. Just want to be prepared from start.
 
 
-===Communication
+### Communication
 case #1
 0. user want to start eat better food than before.
 1. he find you somehow
@@ -81,12 +80,12 @@ How do you communicate with your users?
 What they need to provide to you in order to start?
 
 
-===Analytics
+### Analytics
 Please give me some hints about how did you go from gettin info from user/patient to created a personalized diet plan.
 
 
 
-===Requests from users.
+### Requests from users.
 What usually users want to have in result when they start to communicate with you?
 They want to weight loss help?
 They want to be more energized at morning?
@@ -95,26 +94,8 @@ Just stay fit?
 
 
 
-
-Сколько одновременно людей может вести один нутриционист? Какие есть ограничения?
-Что произойдет и что может пойти не так , если увеличить количество пользователей у вас в 3 раза?
-
-
-
-какая информация заставляет делать программу похудения более индивидуальной?
-Где bottle necks и почему вы не справитесь? Как можно в этом вам помочь?
-
-Какой следующий этап может быть важным, после того, как вы получите данные от пользователя?
-
-Вы проводите какой то анализ? Что входит в данный анализ? Можно ли его
-автоматизировать или например упростить процесс(уменьшить потраченное время)
-
-с помощью software...
-
-
-
 =======
-How much did you spend for software that you use at your work(per month)?
+
 
 What products(software programms) did you use at your work cycle?
 Ex: i'm sure that you use Gmail for messages
@@ -189,20 +170,23 @@ Is that software that you use did work well?
 How do you track the progress? Is it important to track your patients progress?
 >>>
 
-==== USER FILL DATA AND YOU START TO ANALYZE IT IN ORDER TO CREATE A DIET PLAN
-
-Сколько одновременно людей может вести один нутриционист? Какие есть ограничения?
-Что произойдет и что может пойти не так , если увеличить количество пользователей у вас в 3 раза?
+#### USER FILL DATA AND YOU START TO ANALYZE IT IN ORDER TO CREATE A DIET PLAN
 
 
-какая информация заставляет делать программу похудения более индивидуальной?
-Где bottle necks и почему вы не справитесь? Как можно в этом вам помочь?
 
-Какой следующий этап может быть важным, после того, как вы получите данные от пользователя?
+How much people(users,patients) you can manage at the same time? Is it some restrictions here?
+If you'll increase by 3x number of your users - what it will be for you?
+Can you explain a 'bottle-necks' in your process?
 
-Вы проводите какой то анализ? Что входит в данный анализ? Можно ли его автоматизировать или например упростить процесс(уменьшить потраченное время)
 
-с помощью software...
+What information from user making weight loss programm more individual?
+
+
+
+What is the next important stage when you get data from your user?
+
+What is included into your analisys? Can it be more automated or simplified(what can save your time with software help)?
+
 ---------------
 
 
@@ -214,15 +198,12 @@ If your user is super busy - did you make changes in diet plan?
 
 
 
+Can your diet be included to a family meal planning?without a lot of additional time.
+Example: Mother is cooking for a 3-4 persons each day. Maybe she will not have time and will to prepare a different meal for herself.
 
 
-может ли быть ваша диета легко встроена в процесс еды его
-семьи(если мама готовит отдельно еду для всей своей семьи -
-может у нее не будет оставаться сил чтобы себе готовить отдельные meals)
 
-
-How strong your diet is related to user?
-сильно ли зависит диета от пользователя
+How strong your diet is related to user data?
 
 Can you specify step-by-step flow of how user get from beginning to a completed diet plan?
 user enter data, pick a plan and in a few days you reply and send to email a completed diet?
@@ -237,7 +218,7 @@ Who is responsible - user or you looking for results in between(each week, for e
 
 Can you correct the programm, reacting to user resuls or comments
 
-==============COMMUNICATION===
+### COMMUNICATION===
 How did you communicate? 
 What communication channel did you use? Phone, email, FB...
 
