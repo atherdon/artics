@@ -1,28 +1,27 @@
-
 ### What software are you using right now and why
 
-What tools that you using online at your work?
-What do you want to have at dietary management, weight loss software when you think aboiut trying something new?
+What products(software programs) are you using online at your work(helps you to manage your work routine)?
+Ex: I'm sure that you use Gmail for messages
+Maybe you use some payment gateway like PayPal, Stripe.
+Maybe you use Messenger/Facebook in order to communicate with a new prospects(leads)
 
-Did you use some sort of products, that helps you to manage your work routine?
-What features do you use?
-What you want to be improved in this software?
-
-What did you think cannot be done or improved(related to your current software or similar software that you know)?
+What features do you use? 
 
 
 
 Is that software that you use did work well?
 
+What you want to be improved in this software?
+What did you think cannot be done or improved(related to your current software or similar software that you know)?
 
-What products(software programs) did you use at your work cycle?
-Ex: i'm sure that you use Gmail for messages
-Maybe you use some payment gateway like PayPal, Stripe.
-Maybe you use Messenger/Facebook in order to communicate with a new prospects(leads)
-Did you have sales tracking software? Did you use invoice management software?
+
+What features do you want to have at dietary management, weight loss software?
+Do you want to try some new software soon?
 
 
 How much did you spend for software that you use at your work(per month)?
+
+Did you have sales tracking software? Did you use invoice management software?
 
 
 *You can specify names only and i'll google them.*
@@ -30,39 +29,23 @@ How much did you spend for software that you use at your work(per month)?
 
 [You can submit your answers to this section here(Google Form)]
 
-
 ---
-### How your diet plan relates to excercises and recipes
+### How your diet plan relates to meal planning(Questions)
 
 
+What part of diet plan take recipes. 
+They're simple or complex? Easy to cook? Can i cook them without cooking experience?
 
-### Excercises & Recipes
-What minimal connection diets software must have with fitness and meal planning(recipes) services?
-
-## Regadring fitness applications:
-Calories counter, excercises time, sleep time, something else?
-
-
-[You can submit your answers to this section here(Google Form)]
-
-
----
-### Meal planning Questions
-[You can submit your answers to this section here(Google Form)]
-
-## Meal planing: Allergies, Preferences, Cuisines?
 
 Where did you get a recipes? Did you create them yourself?
-What is drive your choice when you pick a recipe for a diet plan?
+What is drive your choice when you pick a new recipe for a diet plan?
 Did you look for a new recipes all times or you create a recipes pack before you start to build a diets?
-Or maybe you have 100 recipes and use always use them?
+Or maybe you have 100 recipes and you always use them?
 
 
 Did you create a shopping list for your clients? Is shopping list stored online?
 
-What part of diet plan take recipes. They're simple or complex? Easy to cook? Can i cook them without cooking experience?
-
-
+Did you adjust your diet plan for Allergies, Preferences, Cuisines?
 
 Is it easy to include your diet into family meals?
 Example: Mother is cooking for a 3-4 persons each day. 
@@ -70,51 +53,10 @@ Maybe she will not have time and will to prepare a different meal for herself. i
 
 
 ---
-### Minimal working functionality or what must be included from start
+
+
 [You can submit your answers to this section here(Google Form)]
 
-
-
-
-Can you describe step-by-step process how you work with your clients?
-
-
-What minimal connection diets must have project with fitness and meal planning(recipes)
-
-
-Can you share some little, simple diet sample for my review?
-
-
-I assume that this sample can illustrate a basic, default flow...
-
-
-
-### Minimal working functionality
-What functionality we must to create in order to create project that helps manage diets, meal planning, recipes?
-
-
-Can you describe a simple functions, that can handle your task, related to diets, recipes, etc.
-This will be a first to-do list of things that must be created.
-
-
-### Samples
-Can you share some little, simple diet sample for my review?
-I assume that this sample can illustrate a basic, default flow...
-So it'll be easy for me to understand logic of your work.
-
-
-
-
-
-### First stage, only important functions
-What basic functionality must have project, related to dietary management?
-
-### Functionality
-What top 5 functionality we must have from start, do you have a sample that can be viewed online?
-* User fill form and you get a profile with data
-* Recipes with calendar feature(so you can create a custom meal plan)
-* Something else?
-=====================
 
 
 
@@ -272,3 +214,10 @@ What nutritions we need to track? Vitamins, minerals, etc.
 How much people(users,patients) you can manage at the same time? Is it some restrictions here?
 If you'll increase by 3x number of your users - what it will be for you?
 Can you explain a 'bottle-necks' in your process?
+
+
+### Excercises & Recipes
+What minimal connection diets software must have with fitness and meal planning(recipes) services?
+
+## Regadring fitness applications:
+Calories counter, excercises time, sleep time, something else?
