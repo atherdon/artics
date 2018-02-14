@@ -1,3 +1,4 @@
+
 Let's assume that you have a website with recipes. And you want to connect your website to recipe application.
 You understand the logic of how it might work, for sure. But something stops you.
 
@@ -46,7 +47,7 @@ Our recipe API and an app can(might) work together without complex setup. But yo
 You are able to set up an app with free-menu functionality right now.
 You'll display 5-6 recipes for a week, with additional data. You'll use Recipe API(Release #0) and Ionic App(Release#1)
 
-If you ask my opinion - it's better to set up an app without connection to API or database. 
+If you ask my opinion - it's better to set up an app without connection to API or database.
 Why? Because it's easy and fast. This is a solution for a lazy people(simple way). You can launch it fast and show to your users.
 
 
