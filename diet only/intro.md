@@ -41,31 +41,3 @@ Arthur
 
 Если с помощью ващих пользователей я смогу обкатать функционал проекта - это стоит гораздо больше чем если я просто получу с вас деньги
 а так вы будете чувствовать что мне нужно тоже помочь и будете учавствовать в развитии проектамвозможно порекомендуете своим знакомым и т.д.
-
-
-  ++++++++++++++++++++++++
-
-
-  Hi there!
-  Thank you for opening this letter.
-  Appreciate your time.
-
-  +If you came to this article by direct link - I find you by keywords fitness, nutritionist, dietary.
-
-  I'm a software developer and trying to build a project that have intersection at:
-  food tech(healthy recipes, meal planing, fresh flood delivery)
-  fitness(routines, excercises)
-  dietary management, nutritions(diet,s weight loss plans, food log)
-
-  I know how to code such kind of projects.
-  I also can google stuff like:
-
-*"best weight loss recipes"
- *"how to plan dietary"
- *"how to manage your fitness goals - maintain your goals"
- *"staying fit, eating healthy fresh food"
-
-  add what will be at first stage or the project
-
-
-  But my experience and knowledge are limited.

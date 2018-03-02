@@ -30,6 +30,7 @@ I started with canban style board(which i like from times that i use @Trello)
 [pic]
 
 how organized projects was looking in April for me
+[]
 
 Then i decided to make my project lightweight and don't care about code style, design, forms, sign up process, etc.
 
