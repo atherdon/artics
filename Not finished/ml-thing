@@ -1,0 +1,255 @@
+
+ok, let's start from some intro: groceristar have a one template. with shopping list items: like milk, beer, vodka, etc
+
+since few weeks (as very less time with active job)
+can i see that template
+
+and i think that adding another few templates will add some value to my projects
+
+sure you can
+
+so, i find at least 200 links with different shoplist templates
+
+template is in text file or excel file?
+
+biggest trouble is how to get data from some other sites and convert it into proper javascript array.
+it can be text, it can be image, etc
+it's hard to create a regular expression, etc
+
+
+it was first ML-like topic
+another idea was to teach model to convert measurements
+
+because it's very tricky to have like teaspoon, lb, ounce in one place
+glass/spoons image in your medium link?
+
+
+but measurement stuff is a long-shot
+not very ready right now. just my research
+so i propose to start from grocery lists
+
+hold on will find ultimate template
+http://www.grocerylists.org/ultimatest/
+grab it from there
+i convert it by hands into this files: https://github.com/GroceriStar/groceristar/tree/master/bin/grocery
+
+
+scrappy tutorial - maybe it'll be a good thing
+
+ok it helps to import data from websites/link
+and scrap it
+
+no it;s not my site. but current version of my project is ugly too
+but right now i have designers in team, so...
+
+if you are scraping someone's site, did you get permission from original author/website?
+or not needed?
+
+btw, this excel file is imported into my database - so you don't need to convert it - not sure if this is clear
+
+i contacted main owner of this website - he's not replying. still waiting on fb invite
+and i'm put in thngs at credit. don't want to be a bad person
+
+http://www.grocerylists.org/wp-content/uploads/2013/01/grocerylistsDOTorg_Editable_v3_4.pdf
+https://github.com/GroceriStar/groceristar/blob/master/credits.md
+
+
+and when i start to form a list of 200 links - i contacted one website owner and tell him that maybe i'm stealing their data and ask if they want to figure this out. they star a conversation and then go away. 
+
+i plan to have a cross link for each website that we're using - it also will be good for seo
+
+no, there excel download file
+
+you can combine ingredients into grocery lists
+
+
+so, i find at least 200 links with different shoplist templates" instead of creating more template, isnt it possible to add items in existing template?
+
+how templates are seggregated?
+
+which 200 links you are talking about?
+
+cann you share those with me?
+https://github.com/GroceriStar/groceristar/issues/417
+
+it's possible to add items into template
+but people are lazy, i assume
+
+it's not a task for you
+but maybe it'll helps
+
+let me complete that task
+guide me how to compleete it
+so that i can learn by work
+ok
+
+open a part1 subtask
+and start from it
+
+https://github.com/GroceriStar/groceristar/issues/418
+
+i am here
+i assume first result of your work will be excel-like file with data from that links
+
+so this links are samples
+you need to review them and grab data that we need
+right now we need only departments and ingredients
+
+www.allyou.com/food/one-list-five-meals/meal-planner-hearty-dish
+
+i opened first link
+what to do next?
+what is department?
+department is food category
+so milk have department dairy
+
+
+
+"Page Not Found"
+for this case it's easy
+you need to move that data into excel format
+if link dont have information that we need - you should specify that in comments
+at github taks
+can you check comment?
+and reword if needed?
+do you mean right now or later?
+now
+yes i get a notification
+
+do you want me to reply ?
+i want you to check my comment,
+is it ok?
+for now is perfect
+do you need information/comment in that way?
+ok
+
+i mean i dont have any plan at this moment
+
+but I see that at least i can add numbers to the links and this will help us to understand each other
+https://www.vegan-nutritionista.com/vegan-grocery-list.html
+
+this one is looking for some money
+should i specify same in comment?
+yes numbering system is needed
+yeah
+
+or one should at least comment inline.
+let me number it
+
+there no rules right now - everything is evolving when we're talking with you
+how to number it
+that is fine
+i like random people like you
+they are more creative, open and honest
+
+so we'll find a way how to get to result
+so maybe - before we'll go into scrapping or ml you should just open that links and form some sort of plan
+
+you had said 200 links, rightnow list is around 10 to 15 only
+
+maybe it'll be better to have an excel file with "link", "status" headers
+yeah, this is why i call it part#1
+
+hmm
+
+let me check other parts
+ok found all links in other parts
+but what is your plan, if there is downloadable template whcih needs money to download?
+are you ready to pay them?
+
+and i think i didnt move all links from my pc into github issues
+no, i'm not ready to pay. because i have 0 in my account
+
+so you are focussing only on free content now a days
+if we don't have a free template - we skip it and move to the next option
+right?
+ok
+
+and maybe later i'll contact website owner - we partner and he/she give me that list for free
+do you have plan what if there are multiple similar recipes?
+where
+
+how to remove/prioritize
+at https://github.com/ChickenKyiv
+
+not get your question
+let us sayi added recipe X
+you added recipe X1
+both recipes produce item # Y
+
+one is good another recipe may not be good enough
+or may be duplicated
+by item # Y you mean ingredient?
+
+
+nope
+output product
+still not clear
+
+ok forget it
+we may discuss it later
+tell me what is next thing i should do now
+
+what is yoru plan for me?
+what should i start?
+create an issue on github and explain it there. so we don't lose it. i care about any improvement
+ok
+later
+
+you'll forget it - i can bet on it
+do you want to see my to do list?
+it is too much dump
+wil i be scared?
+yes of course
+
+how much items you have on it?
+many different things
+
+unorganized way
+i store at least 5000 links in my browser and i really need them
+ok, about task
+nic
+e
+
+what do you think we can do with this links?
+will you be interested to help me with them?
+because sometimes i think i should do them by my hands
+but it's really dumb
+
+first of all there should be provision that there should not be any duplicate links
+if you are really interested to collect links for your project, you (we) should create a web crawler.
+but
+source are different
+
+so yo'll need to create a new rule for each website
+and content are different too
+a web crawler can work automatically
+
+as you know - there no rules about how to wrap that stuff in html
+i think so
+i'm ok with webcrawler if you can do it
+
+i can try once scrapy tutorial is finished
+
+so in total 2 crawlers
+1) to collect links
+2) to collect inforation from those links
+
+ok second item may not be called a crawler instead it may be called as scraper
+ok, so this will be our plan i like it
+i'll create a separate repository for you - because this repo is messy
+maybe later i'll clean it up
+
+
+
+
+
+
+i mean a lot of data that i have and know - it's open to use
+but most of them are in our slack workplace - i can add you if you want
+
+
+
+it'll be cool if scrapper will works
+yes it is alwayz fun to see robots in action
+
