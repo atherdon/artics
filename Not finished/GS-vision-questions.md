@@ -9,6 +9,7 @@
 7. How do you make buying groceries easy?
 8. In what countries is it available?
 
+## A
 1. GroceriStar is online shopping list(+ where you can store items that you need to buy) 
 ----
 2. if you tracking your meals - it's important to buy fresh, healthy products. with shopping list it's easy to do.
@@ -22,18 +23,23 @@ big next thing will be extend database structure, separate logic and static page
 but it can evolve into something more then just sub-project. 
 after realize that borders is only in my head - i start to dream about what can be really 
 disruptive, and current version is not what i see.
+
 -----
 6. not different. more limited that other products. but i don't care. when you have 0 users - it's not important i think. 
 by science research - with shopping lists you manage more your body and what you're eating. i read at least 2 papers about this study. but it was only women study, so its not clear. Btw, i think main impact to health goals will be only when meal planning software will be launched
+
 ---
 7. as i'm not a pro at cooking and cannot create a content - i get an example of shopping list from web. and i plan to add another templates soon. this template can be separated by different types: clean/healthy food, diabetics, any-popular-diet-name. main goal of this templates - don't start shopping list from scratch. clone it and add or remove unnecessary items. timesaver.
+
 ---
 8. it's for all internet users. but it also can be used by another startups. there a lot of food tech companies that build this things each time from scratch. i want to change that. i mean - it's better to do it one time and focus on building space rockets. so all things are opensourced and visible to public. we didn't hide anything and trying to keep this approach
 
-
+## additional questions
 
 7. So we begin with why do we need such a website? (edited)
 8. Why sharing your grocery list helps?
+
+## answers
 
 7. There a lot of websites with similar logic and with better functionality. But what is making unique - it's me. I have a previous experience, want to make things easier for users and I assume I know how to do it
 
