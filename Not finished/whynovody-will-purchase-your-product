@@ -2,66 +2,97 @@
 Why nobody will use my product [ShockContent]
 
 
-User wouldn't use my projects, because ...
+ГUsers wouldn't use my projects, because ...
 
 Люди не будут пользоватся моими проектами по нескольким причинам
 
 Люди не будут покупать у меня, потому что ...
 
 
-Don't make this mistake: Thinking, that anyone will use your product. That all world population or whole market will be your users. It's your brain, trying to fool you. Ohh, thank you Brainie....
+Don't make this mistake: Think, that anyone will use your product. 
+That all-world population or the whole market will be your users. 
+It's your brain, trying to fool you. Ohh, thank you Brainie for this...
+
 
 Если думать только о том, что (I stealed this part) все будут пользоваться вашим продуктом, то вы попадете в сети своего мозга.
 
-Behind this article is science. Term with name "False consensus effect"
-Read more at wikipedia: https://en.wikipedia.org/wiki/False_consensus_effect
+Behind this article is science. The term with name "False consensus effect"
+Read more at Wikipedia: https://en.wikipedia.org/wiki/False_consensus_effect
 
-I find this at least interesting thought. So I think other owners or wannabetrepreneurs must play like I did it below.
-Owner must be pessimistic. A lot of peoples cannot handle this, so... maybe... you shall close this article? 
+I find this at least interesting though. So I think other owners or wannabetrepreneurs must play like I did it below.
+An owner must be pessimistic. A lot of peoples cannot handle this, so... maybe... you shall close this article? 
 
-I'm building a few projects, i'll need to play in this game a few times.
-We're trying to kill optimisim for ChickenKyiv project.
+I'm building a few projects, I'll need to play in this game a few times.
+We're trying to kill optimism for ChickenKyiv project.
 Maybe more information you can find here.
 
 
 
-Я считаю это как минимум хорошей мыслью, с которой овнер проекта может и не мирится, но должен часто думать об
-Поэтому т.к. я делаю несколько проектов - нме очень важно будет играть в ответ на такой вопрос.
-я попробую описать это для основного своего проекта,
-базовую информацию о котором вы можете прочитать в этой статье.
-точнее там вы увидите из кких основных частей он состоит
 
-так почему же пользователи не будут пользоватся тем, что я делаю:
-1) они могут просто не найти и не узнать об этом проекте. это проблема маркетинга и роста.
-впринципе поэтому я и пишу эти статьи
-2) большинство функционала лимитированно - потому что мне лень делать сложный проект сразу
-3) проект тяжелый и будет плохо работать с мобильными девайсами - нужно потратить время
-4) некрасивый дизайн - потому что лень
-5) SEO - раньше его делал для клиентов, но не считаю сейчас эту задачу очень важную
-6) высокая или слишком низкая цена - с ценообразованием тоже надо будет поиграться
-7) низкое удержание клиента. скорее всего вначале процент отказов будет очень высокий, к этому нужно быть готовым
-8) если пользователь уже пользуется проектом, который частично повторяет мой функционал - ему не захочится делать transition
-9) 80% заплативших пользователей не продлят подписку на 2й год работы
-10) слабый саппорт. сейчас выстраивать систему службы поддержки лень. если проект начнет приносить достаточные деньги, можно будет менеждерить саппорт с помощью Intercom, но при этом для большого роста обязательно иметь отдельного человека, который будет минимум часов по 12 отвечать на запросы.
-скорее всего это должен быть english native because of timezone issues.
-11) Баги и другие проблемы которые обязаны быть в процессе разработки
-12) Hire a software engineer with less than 10 years of experience
-13) create a bad architecture and raise a technical debt into the sky
-14) Servers, hostings, uptime
 
-т.к. я разработчик а не человек, имеющий отношение к созданию еды и т.д. - я не могу генерировать много контента
-и я какбе не особо понимаю процесс изнутри.
-тоесть я могу взять и создать базу данных страницу и т.д.
-но я не особо "чувствую" проект
+So let's call it startup Anti-vision. because I don't really understand that "vision-mission" thing.
 
-15) т.к. сейчас проект состоит из нескольких частей и тому, кто будет его использовать прийдется соединять текущий код с кодом других проектов - думаю что это тоже уменьшит количество покупателей.
-люди хотят прийти, увидеть ценник и если согласны - заплатить и получить работающий красивый продукт в коробочке.
 
-16) ничего принципиально нового данный проект не делает. это не инновация. это не полеты в космос. это просто очередной проект, который частично копирует функционал других проектов.
-17) возможная несовместимость с другими языками програмирования и другими платформами.
-18) отсутствие ключевых связей в америке
-19) отсутствие опытного ментора, имеющего в создании и развитии похожих проектов
-20) допустим проект набрал каких то пользователей и двигается медленно вперед. Как он разовьется по объему продаж в 3 раза месяцев за 3-6?
+I think this is a good 'game' to play for a startup founder. 
+It's a bit painful but important.
+I decided to play this game myself and below you'll see options, related to my project - ChickenKyiv(meal planning tool)
+
+You can read more about this project here []
+
+So, why a lot of users wouldn't use project, that I'm working on:
+1) They wouldn't find us. They don't know about my project. It's partly related to growth and marketing. (this is why I wrote articles at Medium)
+
+2) My functionality is limited. (Because I'm too lazy to build a complex project from start)
+
+3) The project is heavy-weighted. it works badly with mobile devices at this moment(we should make it better)
+
+4) Design with bad UI (lazy, but right now I getting help from designers and frontend developers)
+
+5) SEO - I set up SEO for my clients, but for now, I think this is not a necessity at current project stage
+
+6) High/low prices - we should "play" with prices, then we'll understand how much our users want to pay for our services.
+
+7) low customer retention rate. I plan to have it low from the start because it's an art - manipulate with this numbers. Right now it's easy to increase user registration, rather than make them pay > 12 months in a row
+
+8) users can use similar projects and don't want to make a transition
+
+9) 80% of users, that will purchase our services, will be gone after 1 year of using us.
+
+10) bad support. Create a stunning support system is hard. Hope Intercom will help us, but we cannot use it in first stages. If a project will grow - we should have at least 1-2 people that can cover 12 hours of ongoing support per day. It should be English native employee, maybe US citizen, because of timezone issues.
+
+11) Bugs and other problems, related to the development process
+
+12) to Hire not experienced developers(less than 10 years of experience)
+
+13) Create a bad project architecture and raise a technical debt into the sky
+
+15) Servers, hosting, uptime (environment stuff).
+
+ ----------
+
+
+ I'm just a developer, without a lot of knowledge about cooking(i can boil an egg, make a soup or order pizza).
+
+ But I cannot create a unique recipe-based content.
+
+ And I'm not 100% clear about knowledge of cooking.
+
+ So I can create a page, block, but not a recipe. There no "special feeling"
+
+
+ 15) Right now parts of a project are separated. So the functionality is really limited. I hope this will reduce the number of users too. People want to go to someplace -> see good products -> see a price tag and buy it -> like a standalone solution.
+
+ This is not about my current project.
+
+ 16) This project cannot disrupt. There no innovations at this moment. A lot of projects with similar functionality as presented on the web.
+
+ 17) There can be a possibility to have a conflict to work with other programming languages or different platforms.
+
+18) I don't have a lot of connections with the US, where I plan to promote my project.
+
+19) I don't have a mentor, that have an experience in the similar field
+
+20) Let's assume that this project will start to grow and will get first users. It'll grow slow. And wouldn't grow 10x of sales with next 6 months.
 
 
 
