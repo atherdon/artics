@@ -1,0 +1,129 @@
+К чему мы должны прийти:
+0) free recipes display + grocery list
+1) fb login via firebase
+2) meal done/favorites/profile with settings/ simple but good design/search( https://aishmittal.github.io/recipe-planner/#/)/sharing or promotion at social media 
+3) parse csv to object like json return
+4) notifications
+4) grocery creation on the fly - but this shit is complex without good db structure. maybe use Constantine logic from Jill project. or don't care about it at all
+5) activate payed stuff. create api with user_id + generated code = add to database status - active payed user. think about how make it deactivated. but this is not really my problem.
+
+10) create cool and custom design. think about separation instances for different clients. have one hosting but with different db related to different users. think how branding can be accomplished
+
+11) add your personal recipes 
+12) simple subscription process.
+13) client can add their users, who payed and they will receive your menus. client will pay depends on how many users he have and how many recipes he store
+14) recipe planner https://aishmittal.github.io/recipe-planner/#/
+15) money saver
+
+---
+https://www.slideshare.net/cambconsultants/what-does-internet-of-things-mean-for-food-and-beverages-industry
+https://www.forbes.com/sites/michaelwolf/2014/07/31/how-the-internet-of-things-is-reinventing-the-kitchen/#5bce6a983fde
+https://evrythng.com/industries/food-and-beverages/
+http://searchcio.techtarget.com/ezine/CIO-Decisions/IoT-applications-in-the-food-supply-chain
+http://internetofthingsagenda.techtarget.com/blog/IoT-Agenda/Businesses-need-to-think-about-the-Internet-of-Things-more-broadly
+http://internetofthingsagenda.techtarget.com/feature/IoT-Food-service-industry-meets-technology-in-Arbys-deployment
+http://www.postscapes.com/connected-kitchen-products/
+
+---
+
+Идея такая: выводится grocery list с элементами, которые нужно купить и рядом с ними чекбоксы.
+нужно сделать так, чтобы когда я купил например хлеб и нажал на checkbox Bread - это состояние сохранилось. дажеесли я перейду на другую страницу - bread должен иметь состояние checked.
+
+Я вроде начал реализовывать данный функционал, но он работал нестабильно
+---
+когда будет подключена база, будем создавать отдельный grocery list на каждую неделю, заполнять его данными из weekly menu, пользователь сможет добавить чтото свое в данный лист, и grocery list для этой недели будет у нас выводится в  groceryListController.
+
+при нажатии на чекбокс - будет отправляться запрос в базу и помечаться статус - "done".
+при отжатии чекбокса - будет изменятся статус на "to buy"
+---
+https://github.com/eddywashere/node-stripe-membership-saas
+
+https://www.npmjs.com/package/substripe
+https://www.npmjs.com/package/mongoose-stripe-customer
+https://github.com/stripe/stripe-node
+http://stackoverflow.com/questions/18866116/how-to-check-failed-recurring-subscription-stripe
+https://stripe.com/docs/api/node
+https://stripe.com/docs/examples
+https://stormpath.com/blog/how-to-add-billing-to-your-api-with-stripe-stormpath-and-node-js
+http://www.catonmat.net/blog/stripe-payments-with-node/
+https://www.masteringmodernpayments.com/stripe-webhook-event-cheatsheet
+
+https://www.emailhooks.co/
+---
+Было бы пиздато подключить данный сервис для пользователей. чтобы если они хотят юзать recurring payments - пусть хуярят по $100 в месяц и не ебут программистам голову. столько гемороя будет предотвращено
+
+Другая версия - возможно менее геморная, т.к. код уже готов, его нужно только перенести: https://code.tutsplus.com/tutorials/how-to-build-a-subscription-box-with-stamplay--cms-24808
+но я посмотрел туториал и он заебистый, в нем нужно разбираться и тестировать
+
+
+https://dev.recurly.com/docs/list-measured-units
+
+https://github.com/robrighter/node-recurly
+
+https://github.com/eddywashere/node-stripe-membership-saas/tree/master/server/views
+
+https://github.com/deitch/subscriber
+
+https://chartmogul.com/startups/
+
+
+----
+family expences
+https://github.com/gigocabrera/moneyleash
+https://github.com/gigocabrera/MoneyLeash2/blob/master/src/pages/mypicklists/pickcategorytype/pickcategorytype.ts
+---
+Search with autocomplete функц. была бы крутой задачей. с поиском по базе
+разобраться в разнице.
+
+---
+создать сервис(я не просто так на русском это написал), который унифицирует основные функции, которые будут использоваться:
+changeRecipe
+removeRecipe
+addRecipe
+   - эти методы используются не в контексте базы данных, а в контексте weekly menu.
+
+getRecipe - просто массив с одним рецептом
+getDirections
+getIngredients
+getCategorizedIngredients
+
+Meta:
+prep
+cook
+serving
+mealDone
+favorites
+getMeta
+
+
+isComplexRecipe - это 
+getRecipeId by weekday
+
+Favorites:
+add
+remove
+all - возвращает айдишники рецептов
+
+MealDone:
+add
+remove
+all - возвращает айдишники рецептов
+
+CurrentWeek
+PreviousWeek
+allWeeks - возвращает айдишники
+
+get recipes per week
+
+get all ingredients from weeklymenu, separated by categories
+get list of ingredients from one category (Note: without callculation
+get list of ingredients from one category calculated
+get list of ingredients from one category with statuses 'purchased', 'to buy'
+---
+#5 Favorites/ Meal Done
+создать 2 контроллера
+создать 2 вьюшки
+что там выводится - список(может быть больше 10) а не 5-6 как на weekly menu page
+
+вьюшка не сильно отличается от weekly menu page - кроме кнопки prev week и тайтла - на ней выводятся такие же рецепты, как и везде. 
+---
