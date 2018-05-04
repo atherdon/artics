@@ -11,3 +11,32 @@ imperial/metric measurement convertation - иногда люди забываю�
 
 favorite ingredients
 search functionality
+
+
+
+Сейчас GL формируется из отдельного json файла. нужно сделать так, чтобы можно было получать и
+ выводить ингредиенты по категориям, используя данные из рецепта
+
+
+
+combine same items to one list-item
+
+how convert 1 cup of milk and 2 cups of milk to 3 cups 
+https://www.npmjs.com/package/unitconvert
+https://www.npmjs.com/package/convert-units
+https://www.npmjs.com/package/node-units
+http://mathjs.org/docs/datatypes/units.html
+https://github.com/gentooboontoo/js-quantities
+
+
+http://stackoverflow.com/questions/865590/unit-of-measure-conversion-library
+
+
+
+how covert 1 spoon, 2/5 spoon, 1/8 spoon to one number
+http://mathjs.org/docs/datatypes/fractions.html
+https://www.npmjs.com/browse/keyword/fraction
+https://www.npmjs.com/package/fractional-arithmetic
+https://www.npmjs.com/package/fractions
+https://www.npmjs.com/package/mathjs
+https://github.com/yisibl/num2fraction
