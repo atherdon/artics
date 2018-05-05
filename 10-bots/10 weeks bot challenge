@@ -123,3 +123,75 @@ i: Получить какое бы нибудь ревью от создате�
  Следующей идеей стало создать первый базовый dialog flow, т.к. тут отже было много чего непонятного.
 
  Т.е. нужно было перейти от т.А(описание и стандартные команды) к т.В, когда реально можно вводя данные потом получить рабочую логику - это сложно.
+
+
+-------
+
+To be honest, i didn't start my work from scratch.
+Most of this tasks i did before, but for now - they're combined together.
+and right now picture is clear.
+
+I decide to not waste my time and not create a separated branches for each of this projects.
+if i'm making this project - my rules, right?
+this bot have a lot of things in common for each of this projects, so it's not necessary to separate thing at this moment.
+So, to be as much lazy as possible - is my motto for this project.
+
+Before moving all data to readme files - i waneted to describe a lot of things in my papers.
+later - move this text into readme - later - move it into medium artciles. which are your reading right now.
+
+from start i describe titiles for 10 projects. and this is at least 2 month of workl\
+
+I understand that this approach will save a lot of time later.
+I start to create a simple description for each of this projects.
+later i'll publish them. each description fill an A4 paper max. it was easy to do, because i was thinking about most of this projects about a year in my head.
+so i understand what input we'll have.
+
+also, my previous description of bugbot that i want to create, you can read it [here] -it's save some time for me too.
+
+SO, basically - i just cloned a main bugbot description ten times. and have 11 bot projects right now.
+
+###
+List of descriptions you can find [here]
+
+Also i start to group my functionality. as i have a few projects, i can unify things. also this work will help to my main projects. and this is awesome - i think :)
+
+For dialog management i created file tasklist.js - on this file i have only necesary things.
+I wrote on paper an array examples and figure out how to optimize them.
+I decide what to use - Class or Model.
+
+Later i'll explain in more details which functions are more crucial for bugbot.
+I'll create an object at the begining of my code file.
+then i'll create an object, responsible for dialog flow.
+
+also i'll create a set of commands, that each bot will be able to handle.
+then i'll create set of gialog flows(i'll be able to update it in process)
+
+Will create all skills in files with basic methods and input data, that is available for this moment.
+
+during writign my plan on paper i started to generate an unique features, that i'll add in future.
+
+
+arrays that i created are not the end result.
+during my work i'll understand more, what stucture is more good and how it'll be better to save our data.
+
+I create a main function for data entering
+this function will have 2 attributes: name and template __dirname
+
+I create a step-by-step plan how i'll create that projects.
+
+later i'll add screenshot, how each bot will display data in return
+
+I create a long list of requirements and funtions that we need to create.
+
+This projects will stored in one place = inside main project. i'll keep this approach while i'll kepp changing the structure of data.
+while i'll not have passion to create a new features.
+
+then we'll move that things into API, so bots will be just a thing that will receive information from user and send requests to server.
+
+it'll be cool if i'll be able to move all projects into API only 1 times, so all similar things will working and tested only once.
+
+i wish i'll create a basic functionality and wouldn't touch it a lot later.
+
+i: receive a review from BotKit creators, so i can use their brains in order how to improve my codebase.
+
+
