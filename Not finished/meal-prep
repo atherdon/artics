@@ -1,0 +1,16 @@
+
+
+есть ингрединеты, есть measurements
+хочу автоматически минимизировать варианты, основываясь на типе ингредиента.
+Olive oil использовать только Liter, mililiters, а не gram, kilometer, kilogram, etc.
+
+Чтобы можно было ввести в ложках, а потом перевести в унции(ведь в магазине не продают перед или сахар в ложках, верно)?
+
+Подумать о том, чтобы использовать python parses NY Food from github.
+
+
+
+
+Meal preparation, sometimes called "meal prep," is the process of planning and preparing meals. It generally involves food preparation, including cooking.
+
+

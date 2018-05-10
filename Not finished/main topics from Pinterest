@@ -1,0 +1,52 @@
+main topics from Pinterest
+
+Healthy Grocery Lists
+Budget Grocery Lists
+Weekly Grocery Lists
+Vegan Grocery Lists
+
+
+short version. just context.
+
+
+I want to convert pinterest images, related to grocery lists into csv or 
+json like arrays. one of my prev interns started to do this, but he start a 
+complex project at work, and don't have time to help me. we have code at 
+repo, some details, images where you can test how your algorythm works. 
+language is python
+
+repo is here: https://github.com/ChickenKyiv/ocr-grocery-parsing 
+
+
+
+pytesseract
+
+
+i can provide a samples, or do you have questions
+
+
+i want to convert pinterest images, related to grocery lists into csv or 
+json like arrays. one of my prev interns started to do this, but he start a 
+complex project at work, and don't have time to help me. we have code at 
+repo, some details, images where you can test how your algorythm works. 
+language is python
+
+
+i'm not 100% sure about final structure of result array. because current GS database structure will be updated soon(i assume)
+
+
+
+
+we get a db from some europe open sources and right now we have database of 5k ingredients with nutrient data info(more than i expected) 
+https://github.com/GroceriStar/tensor-something 
+there a csv file at root
+
+
+----
+
+In ideal world result should be something like this
+https://github.com/GroceriStar/groceristar/blob/master/bin/grocery/departments.js
+https://github.com/GroceriStar/groceristar/blob/master/bin/grocery/ingredients.js
+
+So basically i need ingredients, that related to some department.
+like Milk related to Dairy
