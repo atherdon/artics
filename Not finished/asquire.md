@@ -60,3 +60,15 @@ you'll find this on the next part.
 I'll need to have a list of template messages - that I'll search at first times, before getting a reply and we started real conversations.
 I want to have at least 5-8 first "open messages". Something simple, not complicated.
 Not pushing people to decide if they want or not work together
+---
+
+
+I'll use a different tactics, and will judge only by number - > what options working better for my current situations.
+я сделаю документ, возможно это будет airtable. чтобы вы могли видеть текущие живые цифры
+
+Конечно надо будет вам рассказать про hubspot sales crm. но об этом попозже.
+Briefly - я буду там хранить все контакты и сообщения от клиентов
+
+первые письма я буду слать из этой системы, и это позволит хранить всю историю в одном месте.
+На какие результаты я сейчас расчитываю? этот метод достаточно простой при должной дисциплине.
+Я не хочу и немогу сейчас чтото продавать. я таким образом получу фидбек и пойму их expectations и сравню их с моими ожиданиями и планом.
