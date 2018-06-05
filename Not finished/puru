@@ -1,0 +1,92 @@
+I have made a model based on the ingredients dataset using Wordnet. What the previous intern had done was that he trained on the entire dataset and made a model which could not predict category of any other ingredient other than the one present in the trained list. So I was thinking we should have a system which could predict categories of the ingredients not present in our dataset, so that it will help in increasing inventory of ingredients without any trouble(predict categories of new addition of ingredients). But as the dataset available to us is too small, I could achieve an accuracy of about 65% only. I will continue to search how I can improve the model. Please let me know if you have any suggestion or have a different idea regarding categorization of ingredients.
+
+
+Arthur Tkachenko sent the following messages at 8:13 PM
+i got your message at angellist. just busy - but will reply soon
+
+can we test it somehow?
+
+
+Puru Kohli sent the following message at 8:52 AM
+
+I have tested it and after making some changes, it works pretty well for now
+I will commit the code today
+
+
+Arthur Tkachenko sent the following messages at 4:27 PM
+it's a good news
+
+you'll push it to the same repo that we have a prev model?
+
+i'm also researching a way, how we'll be able to find more ingredients database for you. in order to make it more trained - if needed
+
+What do you think about this idea:
+i share with you some data, that we got from Pinterest Grocery Lists -> can you try to assign a categories to them and return as array? I think this will give us additional content for import...
+
+
+Puru Kohli sent the following message at 12:25 AM
+
+Yes I can do that
+
+
+Arthur Tkachenko sent the following messages at 4:45 AM
+Excellent
+
+Ok, so here is data-that we grab by hands. i'm not sure how we should format it for your case.... So check it and tell me if you can use it.
+
+github.com
+GroceriStar/Grocery-data
+
+
+https://github.com/GroceriStar/Grocery-data/blob/master/2.txt
+https://github.com/GroceriStar/Grocery-data/blob/master/3.txt
+https://github.com/GroceriStar/Grocery-data/blob/master/4.txt
+https://github.com/GroceriStar/Grocery-data/blob/master/5.txt
+https://github.com/GroceriStar/Grocery-data/blob/master/6.txt
+
+as you can see, title is related to category name. so i think we can easily compare the results, right?
+
+Btw, i have a question: for testing your model, what csv file with ingredients did you use? I mean we have a csv file with 5000 ingredients, that we scraped before, but i didn't remember if i share it with you?
+
+this is file that we have with 5k ingredients(just in case):
+
+github.com
+GroceriStar/data
+
+i find another sample :) please take a look. it's a Yummly ingredients list 2015-2016
+
+github.com
+ChickenKyiv/recipe-api-only
+
+Puru Kohli
+View Puru’s profile Puru Kohli
+I used the ingredients.csv file which had 605 ingredients to train and test the model. The csv file with 5000 ingredients doesn't have categories associated with them so I can not use that to test the model and get a metric representing accuracy
+I can modify the txt files above and use them. You want me to test my model on these files right?
+
+ingredients.csv
+ingredients.csv
+
+View Puru
+the last link you shared can not be opened
+
+
+Arthur Tkachenko
+i can move it to repo if you want
+
+it's just a big file
+
+will reply to your prev message soon
+
+just wake up :)
+
+
+Puru Kohli
+I think the link is not correct. It is showing page not found
+
+
+Arthur Tkachenko
+ohh, got it
+
+btw, i think we should move such kind of discussions at github, so i;ll move all data here
+
+just need to go to coffeshop and became a real person
