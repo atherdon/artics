@@ -1,0 +1,7 @@
+- js basics
+- git + github basics
+- Bootstrap basics
+- flexboxes
+- graphQL
+- React
+- React Native
