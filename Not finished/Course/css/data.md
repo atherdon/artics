@@ -50,3 +50,6 @@ Javascript/jQuery, SASS - yep, we can do basics. SASS is also can be mixed with 
 Node.JS - tell me what exactly do you want to have? simple CRUD+mongodb, or creating APIs? right now I'm exploring how to create an npm package, so this can be another class too.
 React.JS - only basics. nothing advanced, because I'm mastering it right now too. 
 
+
+I should create a txt file with basic recipe data, like image url, etc.
+in the middle of the course we should have page with half of elements. like short version of recipe page.
