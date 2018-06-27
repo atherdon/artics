@@ -26,3 +26,18 @@
 - hover effects
 - pseudo-classes(before after)
 - maybe css3 gradients
+
+#### small styles
+image
+h1, h2, h5
+pull-right
+pull-left
+borders
+backgrounds
+
+#### sections
+first
+second 
+third
+
+#### basic grid configuration styles
