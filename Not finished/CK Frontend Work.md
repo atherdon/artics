@@ -54,12 +54,14 @@ Search
 Import recipe
 Weekly Menu Release
 
+
 Recipes list(weekly menu analog)
 An app intro with images(finish with displaying content, test how it works, complete js, so app intro opens only one time). Images picked. Controller added. Content was picked.
 Grocery List without buttons — long list
 Complex recipe
 Move styles to appropriate place
 Add material design version for free menu version
+
 
 Weekly Menu advanced
 Meal plan types(allergies free, gluten free, cooking for two, a family with kids(main option))
