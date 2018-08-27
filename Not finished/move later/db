@@ -178,3 +178,7 @@ Type	Web Label	   API Parameter	Definition
 "Health"	"Vegan"	"vegan"	                        "No meat, poultry, fish, dairy, eggs or honey"
 "Health"	"Vegetarian"	"vegetarian"	            "No meat, poultry, or fish"
 "Health"	"Wheat-free"	"wheat-free"	            "No wheat, can have gluten though"
+
+https://github.com/schollz/parseingredient
+https://raw.githubusercontent.com/tabatkins/recipe-db/master/db-recipes.json
+
