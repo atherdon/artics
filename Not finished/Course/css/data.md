@@ -53,3 +53,29 @@ React.JS - only basics. nothing advanced, because I'm mastering it right now too
 
 I should create a txt file with basic recipe data, like image url, etc.
 in the middle of the course we should have page with half of elements. like short version of recipe page.
+
+
+#### Part 4
+
+What do we see here
+Main class wrapper will take 100% of width that we give him.
+Let's add a background color, so you can wee it borders better.
+Our sidebar will be red and content will be while.
+
+But as you can see: our block are going not in line
+sidebar have 25% of width.
+
+But div displayed after sidebar
+Let's add a simple rule (display inline-block)
+So, now bot divs appeared in same line.
+
+If we'll increase sidebar width to 26% of main width -> it'll broke our line structure again.
+
+Because both elements together have more 100% of width.
+
+But we can limit or override this rule.
+
+If we add to our wrapper max-width: 400px, all elements will change their sides too.
+
+Because they count their sizes too. Because they count their widths beased on percentage from parent element width.
+
