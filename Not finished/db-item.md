@@ -1,6 +1,11 @@
 
 
+https://dba.stackexchange.com/questions/145222/structure-a-database-for-a-blog
+https://dba.stackexchange.com/search?q=recipe+database
 
+https://dba.stackexchange.com/questions/3808/most-effificient-way-to-store-ingredients-in-a-food-database?rq=1
+
+https://dba.stackexchange.com/questions/158751/when-to-add-another-lookup-table-for-the-same-field
 
 =========
 план как хранить в базе уже использованные листы и как это сделать со стороны фронтенда
